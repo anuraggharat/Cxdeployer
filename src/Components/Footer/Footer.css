@@ -1,0 +1,38 @@
+.custom-footer {
+  background: #e8e8e8;
+  margin-top: 55px;
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+.footer-link a,
+.footer-link a:hover,
+.footer-link a:active {
+  text-decoration: none;
+  margin-right: 22px;
+  color: black;
+}
+
+.footer-icons a {
+  font-size: 1.5rem !important;
+  color: black !important;
+  cursor: default;
+}
+
+.fa-facebook:hover {
+  color: #007bff !important;
+  cursor: pointer;
+}
+
+.fa-instagram:hover {
+  color: #ea484e !important;
+  cursor: pointer;
+}
+
+.fa-linkedin:hover {
+  color: #00adee !important;
+  cursor: pointer;
+}
+
+.fa-whatsapp:hover {
+  color: #65c958 !important;
+  cursor: pointer;
+}

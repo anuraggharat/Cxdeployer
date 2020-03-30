@@ -1,0 +1,211 @@
+.benefits-card:hover {
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+.benefits-card .card-body {
+  margin-top: 1em;
+}
+.card-body .card-title {
+  font-size: 1.25em;
+}
+.benefits-card .card-text {
+  font-weight: 400;
+  margin-bottom: 2em;
+}
+
+.benefits-card .card-body {
+  height: 15rem;
+}
+
+.benefits-card img {
+  height: 10em;
+}
+
+.nav-pills .nav-link,
+.nav-pills .active {
+  box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1em;
+  margin-top: 1em;
+  background-color: #f8f8f8 !important;
+  color: #212529 !important;
+  cursor: pointer;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.banner {
+  opacity: 0.8;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#v-pills-1:hover {
+  border-left: 4px solid #00adee;
+}
+#v-pills-2:hover {
+  border-left: 4px solid #ffc107;
+}
+#v-pills-3:hover {
+  border-left: 4px solid #65c958;
+}
+#v-pills-4:hover {
+  border-left: 4px solid #a04df9;
+}
+#v-pills-5:hover {
+  border-left: 4px solid #ea484e;
+}
+#v-pills-6:hover {
+  border-left: 4px solid #556b2f;
+}
+
+#v-pills-1.active {
+  border-left: 8px solid #00adee;
+}
+#v-pills-2.active {
+  border-left: 8px solid #ffc107;
+}
+#v-pills-3.active {
+  border-left: 8px solid #65c958;
+}
+#v-pills-4.active {
+  border-left: 8px solid #a04df9;
+}
+#v-pills-5.active {
+  border-left: 8px solid #ea484e;
+}
+#v-pills-6.active {
+  border-left: 8px solid #556b2f;
+}
+
+.v-pills-bg-1 {
+  background-color: #00adee;
+}
+.v-pills-bg-2 {
+  background-color: #ffc107;
+}
+.v-pills-bg-3 {
+  background-color: #65c958;
+}
+.v-pills-bg-4 {
+  background-color: #a04df9;
+}
+.v-pills-bg-5 {
+  background-color: #ea484e;
+}
+.v-pills-bg-6 {
+  background-color: #556b2f;
+}
+
+.overview-image {
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+.key-feature-image {
+  max-height: 20rem;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.key-feature-image-container {
+  min-height: 23rem !important;
+  justify-content: center !important;
+}
+.features-container {
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+}
+.fa-check-circle {
+  color: #28a745;
+}
+.fa-times-circle {
+  color: #dc3545 !important;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 1rem 0;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+.pricing .card-text {
+  font-size: 1.75rem;
+  margin: 2rem 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+  display: block;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .card .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+.pricing-text {
+  color: #f8f9fa;
+  line-height: 1.5em;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.carousel-control-prev {
+  width: 10%;
+}
+
+.carousel-indicators li {
+  background-color: rgba(0, 0, 0, 0.418);
+}
+.carousel-indicators .active {
+  background-color: rgba(0, 0, 0, 0.945);
+}
