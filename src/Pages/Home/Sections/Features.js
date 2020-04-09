@@ -5,6 +5,7 @@ import FeatureImg3 from "../../../assets/images/Home/feature-3.png"
 import FeatureImg4 from "../../../assets/images/Home/feature-4.svg"
 import FeatureImg5 from "../../../assets/images/Home/feature-5.webp"
 import FeatureImg6 from "../../../assets/images/Home/feature-6.jpg"
+//import Features from "./Features";
 
 const PillTabs = ({ image, index, title, subtitle }) => {
 	return <div
@@ -31,8 +32,9 @@ const PillTabs = ({ image, index, title, subtitle }) => {
 }
 
 export default () => {
-
-	return <div className="row">
+	return <section className="Features">
+		
+	<div className="row">
 		<div className="col-12 col-md-8">
 			<div className="tab-content" id="v-pills-tabContent">
 				<PillTabs
@@ -103,4 +105,5 @@ export default () => {
 			</div>
 		</div>
 	</div>
+	</section>
 }

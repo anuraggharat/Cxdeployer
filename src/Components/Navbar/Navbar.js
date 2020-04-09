@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import Logo from "../../assets/images/logo.png"
+import Logo1 from "../../assets/images/Logo1.png"
+
 
 const $ = window.$;
 const location = window.location;
@@ -40,34 +41,47 @@ export default () => {
 
 			// Activate scrollspy to add active class to navbar items on scroll
 			$('body').scrollspy({
+				
 				target: '#mainNav',
-				offset: 56
+				offset: 56,
+				
 			});
 
 		})
 	}, [])
 
-	return <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
+	return <nav className="navbar navbar-expand-lg navbar-dark fixed-top sticky-top" style={{backgroundColor:"#003566"}} id="mainNav">
 		<div className="container">
 			<a className="navbar-brand js-scroll-trigger" href="#carousel">
-				<img src={Logo} alt="CXDeployer" width="150" height="50" />
+				<img src={Logo1} tintcolor='red' alt="CXDeployer"  width="150" height="50"    />
 			</a>
 			<button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span className="navbar-toggler-icon"></span>
 			</button>
 			<div className="collapse navbar-collapse" id="navbarResponsive">
 				<ul className="navbar-nav text-uppercase ml-auto">
-					<li className="nav-item">
+					{/* <li className="nav-item">
 						<a className="nav-link js-scroll-trigger" href="#benefits">Benefits</a>
+					</li> */}
+					<li className="nav-item">
+						<a className="nav-link js-scroll-trigger" href="/#features">Features</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link js-scroll-trigger" href="#features">Features</a>
+						<a className="nav-link js-scroll-trigger" href="/Pricing">Pricing</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link js-scroll-trigger" href="#pricing">Pricing</a>
+						<a className="nav-link js-scroll-trigger" href="/Contactus">Contact US</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link js-scroll-trigger" href="http://app.cxdeployer.com/#/sign-in">Sign In</a>
+						<a className="nav-link js-scroll-trigger" href="http://app.cxdeployer.com/#/sign-in">Login</a>
+					</li>
+					<li>
+					<div style={{margin:"8px 8px 10px 10px"}} >							
+								<a rel="noopener noreferrer" 
+							href="http://app.cxdeployer.com/#/" 
+							target="_blank" className="btn btn-light" style={{ zIndex: "100", align:"left"}}>
+								<font color="black">Try for free</font></a>
+					</div>
 					</li>
 				</ul>
 			</div>

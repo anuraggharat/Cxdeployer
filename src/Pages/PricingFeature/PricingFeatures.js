@@ -22,7 +22,8 @@ const features = [
 ]
 
 export default() => {
-	return <div className="table-responsive">
+	return <section className="Feature">
+	<div className="table-responsive">
 		<table className="table table-borderless table-hover">
 			<thead className="border-bottom">
 				<tr className="text-center">
@@ -80,5 +81,5 @@ export default() => {
 			</tbody>
 		</table>
 	</div>
-	
+	</section>
 }

@@ -23,7 +23,7 @@ span :hover {
 }
 
 #mainNav {
-  background-color: #f8f9fa;
+  background-color: blue;
 }
 
 #mainNav .navbar-toggler {
@@ -46,7 +46,7 @@ span :hover {
 #mainNav.navbar-shrink {
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #f8f9fa !important;
+  background-color: #f8f9fa important;
 }
 
 @media (min-width: 992px) {

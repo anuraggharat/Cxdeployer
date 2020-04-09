@@ -207,5 +207,9 @@
   background-color: rgba(0, 0, 0, 0.418);
 }
 .carousel-indicators .active {
-  background-color: rgba(0, 0, 0, 0.945);
+  background-color:blue
+}
+
+.carousal-text{
+  text-decoration-color: blue;
 }

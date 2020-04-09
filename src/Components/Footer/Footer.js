@@ -1,45 +1,69 @@
 import React from 'react';
 import "./Footer.css";
 import Logo from "../../assets/images/logo.png";
+import footerwaa from "../../assets/images/Home/footerwaa.png";
 
-export default () => {
-	return (
+export default () => {    
+	return (   
 		/* <!--FOOTER  --> */
 		<footer className='custom-footer col-sm-12' >
-			<div className='container px-0 py-4'>
+				<div className="row" style={{margin:"30px 30px 30px 30px"}}>
+					<div className="col">
+					<img src={Logo} alt="Logo" width="150" height="80" />
+						<p style={{color:"white"}}>The only one platform you need to transform your customer experience</p>
+					
+					</div>
+					<div className="col">
+
+
+					</div>
+					<div className="col">
+						<br></br>
+					
+					<a href="www.facebook.com"><img src={footerwaa} alt="footerwa"   width="180px" height="60px" style={{ textAlign:"right", marginLeft:"50%"}} /></a>
+					</div>
+{/*1nd  Row  div close */}
+				</div>
+				<div className="row" >
+				
+				
+				<div className="col"> </div>
+				
+				
+				<div className="col-6 ">
+				<div class="d-flex text-strong">
+				
+  				<div class="p-2  flex-fill text-white" ><a class="card-link text-white" data-toggle="collapse" href="/Cookies/#collapseOne">Terms of Use</a> </div>
+  				<a class="p-2  flex-fill text-white" href="/Cookies">Privacy Policy</a>
+  				<a class="p-2  flex-fill text-white" href="/Cookies">Cookie Policy</a>
+				</div>
+				</div>
+				
+				<div className="col"></div>
+					
+{/*2nd  Row  div close */}
+				</div>
+				
+
+			{/* <div className='container px-0 py-4'>
 				<div className="row d-flex align-items-center">
 					<div className="col-12 col-lg-4 mb-3">
 						<img src={Logo} alt="Logo" width="150" height="50" />
-						<p>Transform your customer experience</p>
+						<p style={{color:"white"}}>The only one platform you need to transform your customer experience</p>
 						<div className="footer-link">
-							<a className="js-scroll-trigger" href="#carousel">Home</a>
-							<a className="js-scroll-trigger" href="#benefits">Benefits</a>
-							<a className="js-scroll-trigger" href="#features">Features</a>
-							<a className="js-scroll-trigger" href="#pricing">Pricing</a>
+						
+							<a className="js-scroll-trigger" href="Cookies">Cookies </a>
+							<i className="fab fa-facebook-square"></i>
 						</div>
 					</div>
 					<div className="col-12 col-lg-4 mt-3 mt-lg-0">
-						<h5>About the company</h5>
-						<p className="text-justify">
-							Design a Customer Journey experience with various kanban board and map. Design a customer journey with various design solution.
-						</p>
+						
 					</div>
-					<div className="col-12 col-lg-4 mt-3 mt-lg-0">
-						<div className="footer-link mt-3 pl-lg-3">
-							<a href="tel:+919669911101">+91-9669911101</a>
-						</div>
-						<div className="footer-link mt-3 pl-lg-3">
-							<a href="mailto:contact@cxdeployer.in">contact@cxdeployer.in</a>
-						</div>
-						<div className='footer-icons mt-3'>
-							<a href="/"><i className='fab fa-facebook fa-1x mx-4 px-2' /></a>
-							<a href="/"><i className='fab fa-instagram fa-1x mx-4 px-2' /></a>
-							<a href="/"><i className='fab fa-linkedin fa-1x mx-4 px-2' /></a>
-							<a href="/"><i className='fab fa-whatsapp fa-1x mx-4 px-2' /></a>
+					<div className="col-12 col-lg-4 mt-0 mt-lg-0">
+						<img src={footerwaa} alt="footerwa" class="ml-lg mt-0 rectangle" width="180px"  height="80" float="right|top"  position="absolute" top= "0px" right= "0px" left="1080px"  />
 						</div>
 					</div>
-				</div>
-			</div>
+				</div> */}
 		</footer >
 	)
 }

@@ -1,5 +1,5 @@
 .custom-footer {
-  background: #e8e8e8;
+  background: #8a99b8;
   margin-top: 55px;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
 }
@@ -8,7 +8,7 @@
 .footer-link a:active {
   text-decoration: none;
   margin-right: 22px;
-  color: black;
+  color: bl;
 }
 
 .footer-icons a {
