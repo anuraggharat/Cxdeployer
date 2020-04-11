@@ -207,9 +207,20 @@
   background-color: rgba(0, 0, 0, 0.418);
 }
 .carousel-indicators .active {
-  background-color:blue
+  background-color: blue;
 }
 
-.carousal-text{
+.carousal-text {
   text-decoration-color: blue;
+}
+
+.carousel-img-text {
+  text-align: center;
+  margin: 0.6em auto;
+  font-size: 1.4rem;
+  color: #abb9d6;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to bottom, #162950, #3c5beb);
 }

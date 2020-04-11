@@ -1,10 +1,17 @@
 import Home from "./Home/Home";
-import Pricing from "./Home/Sections/Pricing";
-import PricingFeatures from "./Home/Sections/PricingFeatures";
-import Contactus from "./Home/Sections/Contactus";
-import Cookies from "./Home/Sections/Cookies";
+import Pricing from "./Pricing";
+import PricingFeatures from "./PricingFeatures";
+import Contactus from "./Contactus";
+import Cookies from "./Cookies";
+import PrivacyPolicy from "./PrivacyPolicy";
+import TermsOfUse from "./TermsOfUse";
 
-export { Home, Pricing,PricingFeatures, Contactus,Cookies}
-
-
-
+export {
+  Home,
+  Pricing,
+  PricingFeatures,
+  Contactus,
+  Cookies,
+  PrivacyPolicy,
+  TermsOfUse,
+};

@@ -1,69 +1,47 @@
-import React from 'react';
+import React from "react";
 import "./Footer.css";
 import Logo from "../../assets/images/logo.png";
-import footerwaa from "../../assets/images/Home/footerwaa.png";
+import { Link } from "react-router-dom";
 
-export default () => {    
-	return (   
-		/* <!--FOOTER  --> */
-		<footer className='custom-footer col-sm-12' >
-				<div className="row" style={{margin:"30px 30px 30px 30px"}}>
-					<div className="col">
-					<img src={Logo} alt="Logo" width="150" height="80" />
-						<p style={{color:"white"}}>The only one platform you need to transform your customer experience</p>
-					
-					</div>
-					<div className="col">
-
-
-					</div>
-					<div className="col">
-						<br></br>
-					
-					<a href="www.facebook.com"><img src={footerwaa} alt="footerwa"   width="180px" height="60px" style={{ textAlign:"right", marginLeft:"50%"}} /></a>
-					</div>
-{/*1nd  Row  div close */}
-				</div>
-				<div className="row" >
-				
-				
-				<div className="col"> </div>
-				
-				
-				<div className="col-6 ">
-				<div class="d-flex text-strong">
-				
-  				<div class="p-2  flex-fill text-white" ><a class="card-link text-white" data-toggle="collapse" href="/Cookies/#collapseOne">Terms of Use</a> </div>
-  				<a class="p-2  flex-fill text-white" href="/Cookies">Privacy Policy</a>
-  				<a class="p-2  flex-fill text-white" href="/Cookies">Cookie Policy</a>
-				</div>
-				</div>
-				
-				<div className="col"></div>
-					
-{/*2nd  Row  div close */}
-				</div>
-				
-
-			{/* <div className='container px-0 py-4'>
-				<div className="row d-flex align-items-center">
-					<div className="col-12 col-lg-4 mb-3">
-						<img src={Logo} alt="Logo" width="150" height="50" />
-						<p style={{color:"white"}}>The only one platform you need to transform your customer experience</p>
-						<div className="footer-link">
-						
-							<a className="js-scroll-trigger" href="Cookies">Cookies </a>
-							<i className="fab fa-facebook-square"></i>
-						</div>
-					</div>
-					<div className="col-12 col-lg-4 mt-3 mt-lg-0">
-						
-					</div>
-					<div className="col-12 col-lg-4 mt-0 mt-lg-0">
-						<img src={footerwaa} alt="footerwa" class="ml-lg mt-0 rectangle" width="180px"  height="80" float="right|top"  position="absolute" top= "0px" right= "0px" left="1080px"  />
-						</div>
-					</div>
-				</div> */}
-		</footer >
-	)
-}
+export default () => {
+  return (
+    /* <!--FOOTER  --> */
+    <footer className="custom-footer p-3">
+      <div className="row mb-3">
+        <div className="col-12 col-md-6">
+          <Link to="/">
+            <img src={Logo} alt="Logo" width="auto" height="80" />
+          </Link>
+          <div className="text-white w-50">
+            The only one platform you need to transform your customer experience
+          </div>
+        </div>
+        <div className="col-12 col-md-6 d-flex justify-content-end align-items-center">
+          <div className="bg-white d-inline-block p-3 px-5">
+            <div>
+              <a href="mailto:contact@cxdeployer.com" className="nav-link p-0">
+                contact@cxdeployer.com
+              </a>
+            </div>
+            <i className="fab fa-2x mr-2 text-secondary fa-facebook-square"></i>
+            <i className="fab fa-2x mr-2 text-secondary fa-medium"></i>
+            <i className="fab fa-2x mr-2 text-secondary fa-twitter-square"></i>
+            <i className="fab fa-2x mr-2 text-secondary fa-linkedin"></i>
+            <i className="fab fa-2x mr-2 text-secondary fa-instagram-square"></i>
+          </div>
+        </div>
+      </div>
+      <div class="text-center pb-3">
+        <Link class=" ml-4 text-white card-link text-white" to="/terms">
+          Terms of Use
+        </Link>
+        <Link class="ml-4  card-link text-white" to="/privacypolicy">
+          Privacy Policy
+        </Link>
+        <Link class="ml-4  card-link text-white" to="/Cookies">
+          Cookie Policy
+        </Link>
+      </div>
+    </footer>
+  );
+};
