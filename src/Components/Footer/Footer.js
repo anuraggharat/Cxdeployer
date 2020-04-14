@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import Logo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
+import Logo1 from "../../assets/images/Logo1.png";
 
 export default () => {
   return (
@@ -10,7 +11,7 @@ export default () => {
       <div className="row mb-3">
         <div className="col-12 col-md-6">
           <Link to="/">
-            <img src={Logo} alt="Logo" width="auto" height="80" />
+            <img src={Logo1} alt="Logo" width="auto" height="80" />
           </Link>
           <div className="text-white w-50">
             The only one platform you need to transform your customer experience
@@ -23,7 +24,7 @@ export default () => {
                 contact@cxdeployer.com
               </a>
             </div>
-            <i className="fab fa-2x mr-2 text-secondary fa-facebook-square"></i>
+            <i className="fab fa-2x mr-2 text-secondary fa-facebook-square " ></i>
             <i className="fab fa-2x mr-2 text-secondary fa-medium"></i>
             <i className="fab fa-2x mr-2 text-secondary fa-twitter-square"></i>
             <i className="fab fa-2x mr-2 text-secondary fa-linkedin"></i>
