@@ -11,7 +11,7 @@ export default class extends Component {
   render = () => {
     return (
       <div>
-        <div className="bg-gradient px-5 py-3">
+        <div className="bg-gradient px-5 py-3" style={{ height: "85vh" }}>
           <Carousel />
         </div>
         <div className="container mt-5">

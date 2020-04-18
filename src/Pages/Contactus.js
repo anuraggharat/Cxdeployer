@@ -9,7 +9,7 @@ export default () => {
       <div>
         <div
           class="jumbotron text-light "
-          style={{ textAlign: "Center", backgroundColor: "#005688" }}
+          style={{ textAlign: "Center", backgroundColor: "rgb(22, 41, 80)" }}
         >
           <h1> Contact Us </h1>
           <hr size="30" color="red" width="300px"></hr>

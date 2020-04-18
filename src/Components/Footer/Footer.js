@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
 import Logo1 from "../../assets/images/Logo1.png";
 
@@ -18,17 +17,17 @@ export default () => {
           </div>
         </div>
         <div className="col-12 col-md-6 d-flex justify-content-end align-items-center">
-          <div className="bg-white d-inline-block p-3 px-5">
+          <div className="bg-light rounded d-inline-block p-3 px-5">
             <div>
               <a href="mailto:contact@cxdeployer.com" className="nav-link p-0">
                 contact@cxdeployer.com
               </a>
             </div>
-            <i className="fab fa-2x mr-2 text-secondary fa-facebook-square " ></i>
-            <i className="fab fa-2x mr-2 text-secondary fa-medium"></i>
-            <i className="fab fa-2x mr-2 text-secondary fa-twitter-square"></i>
-            <i className="fab fa-2x mr-2 text-secondary fa-linkedin"></i>
-            <i className="fab fa-2x mr-2 text-secondary fa-instagram-square"></i>
+            <i className="fab fa-2x mr-2 fa-facebook-square "></i>
+            <i className="fab fa-2x mr-2 fa-medium"></i>
+            <i className="fab fa-2x mr-2 fa-twitter-square"></i>
+            <i className="fab fa-2x mr-2 fa-linkedin"></i>
+            <i className="fab fa-2x mr-2 fa-instagram-square"></i>
           </div>
         </div>
       </div>

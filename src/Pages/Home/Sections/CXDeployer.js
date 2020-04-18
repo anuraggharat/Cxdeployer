@@ -10,13 +10,13 @@ export default () => {
     <div>
       <div>
         <h1 className="text-center">What is CXDeployer?</h1>
-        <div className="text-center px-lg-5">
+        <p className="text-center px-lg-5">
           CXDeployer is a cloud based all-in-one solution that enables design
           thinking professionals to deploy, and transform the customer
           experience by creating, sharing and presenting the persona map,
           business model canvas, customer journey map, ideation and execution
           management of the best idea.
-        </div>
+        </p>
       </div>
       <div className="row mt-5">
         <div className="col-12 col-md-6 my-5 d-flex justify-content-center flex-column">

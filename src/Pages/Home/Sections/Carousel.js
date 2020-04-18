@@ -8,7 +8,10 @@ import Banner3 from "../../../assets/images/Home/CX-deployer-banner-3.png";
 
 export default () => {
   return (
-    <div className="container-fluid bg-white rounded-lg">
+    <div
+      className="container-fluid bg-white rounded-lg"
+      style={{ height: "100%" }}
+    >
       <div>
         <div id="carousel" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
@@ -29,7 +32,10 @@ export default () => {
           <div className="carousel-inner">
             <div className="carousel-item active" data-interval="100000">
               <div className="container">
-                <div className="row justify-content-end">
+                <div
+                  className="row justify-content-end"
+                  style={{ height: "100%" }}
+                >
                   <div className="col-7">
                     <div className="carousel-img-text">
                       Collaborate and Map the <br /> current Experience
@@ -144,15 +150,14 @@ const styles = {
     backgroundSize: "cover",
     backgroundPosition: "top",
     minWidth: "100wh",
-    minHeight: "400px",
-    maxHeight: "400px",
+    minHeight: "425px",
+    maxHeight: "425px",
   },
   carouselImage: {
     position: "absolute",
     left: "50%",
     top: "10%",
     width: "100%",
-
     textalign: "center",
     fontsize: "18px",
     fontFamily: "Arial Rounded MtT Bold",
