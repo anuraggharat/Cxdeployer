@@ -3,27 +3,27 @@ import React from "react";
 export default () => (
   <div className="container">
     <div
-      className="rounded-lg p-5 text-white text-center"
-      style={{ backgroundColor: "#3d5af1" }}
+      className="rounded-lg p-5 px-3 px-md-5   text-center"
+      style={{ backgroundColor: "#dcd6f7" }}
     >
-      <div className="h1">
+      <div className="h3">
         CXDeployer transforms the you conduct design thinking workshops
       </div>
-      <div className="d-flex justify-content-center py-4">
+      <div className="d-flex flex-column flex-md-row justify-content-center py-4">
         <div
-          className="btn btn-primary rounded-lg px-4 py-2"
-          style={{ backgroundColor: "#00b0f0" }}
+          className="btn rounded-lg text-white px-4 py-2"
+          style={{ backgroundColor: "rgb(22, 41, 80)" }}
         >
-             <a
-                rel="noopener noreferrer"
-                href="http://app.cxdeployer.com/#/"
-                target="_blank"
-               
-              >
-                <font color="black">Try for free</font>
-              </a>
+          <a
+            rel="noopener noreferrer"
+            href="http://app.cxdeployer.com/#/"
+            target="_blank"
+            className="text-white"
+          >
+            Try for free
+          </a>
         </div>
-        <div className="btn btn-secondary rounded-lg px-4 py-2 ml-4">
+        <div className="btn btn-secondary rounded-lg px-4 py-2 ml-md-4 mt-2 mt-md-0">
           Request a demo
         </div>
       </div>

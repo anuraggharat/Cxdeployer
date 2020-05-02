@@ -8,6 +8,7 @@ import {
   Cookies,
   PrivacyPolicy,
   TermsOfUse,
+  Features,
 } from "./Pages";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"; // very important for Routing
@@ -25,6 +26,7 @@ function App() {
             <Route path="/Cookies" component={Cookies} />
             <Route path="/privacypolicy" component={PrivacyPolicy} />
             <Route path="/terms" component={TermsOfUse} />
+            <Route path="/features" component={Features} />
           </Switch>
           <Footer />
         </ScrollToTop>

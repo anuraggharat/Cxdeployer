@@ -11,13 +11,18 @@ export default class extends Component {
   render = () => {
     return (
       <div>
-        <div className="bg-gradient px-5 py-3" style={{ height: "85vh" }}>
+        <div
+          className="bg-gradient px-3 px-lg-5 py-3"
+          style={{ minHeight: "90vh", height: "auto" }}
+        >
           <Carousel />
         </div>
-        <div className="container mt-5">
+        <div className="container-fluid mt-5">
           <div id="benefits" className="mt-5">
             <Benefits />
           </div>
+        </div>
+        <div className="container mt-5">
           <div id="CXDeployer" className="mt-5">
             <CXDeployer />
           </div>

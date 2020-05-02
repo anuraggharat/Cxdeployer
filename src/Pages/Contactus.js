@@ -1,7 +1,7 @@
 import React from "react";
-import Livechat from "../assets/images/Home/Livechat.svg";
-import Schedulemeeting from "../assets/images/Home/Schedulemeeting.svg";
-import Submitrequest from "../assets/images/Home/Submitrequest.svg";
+import Livechat from "../assets/Home/Livechat.svg";
+import Schedulemeeting from "../assets/Home/Schedulemeeting.svg";
+import Submitrequest from "../assets/Home/Submitrequest.svg";
 
 export default () => {
   return (

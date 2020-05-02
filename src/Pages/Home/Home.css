@@ -44,60 +44,51 @@
 }
 
 #v-pills-1:hover {
-  border-left: 4px solid #00adee;
+  border-left: 4px solid #aeefec;
 }
 #v-pills-2:hover {
-  border-left: 4px solid #ffc107;
+  border-left: 4px solid #f8fab8;
 }
 #v-pills-3:hover {
-  border-left: 4px solid #65c958;
+  border-left: 4px solid #d8ebb5;
 }
 #v-pills-4:hover {
-  border-left: 4px solid #a04df9;
+  border-left: 4px solid #deddfa;
 }
 #v-pills-5:hover {
-  border-left: 4px solid #ea484e;
-}
-#v-pills-6:hover {
-  border-left: 4px solid #556b2f;
+  border-left: 4px solid #f3d4d4;
 }
 
 #v-pills-1.active {
-  border-left: 8px solid #00adee;
+  border-left: 8px solid #aeefec;
 }
 #v-pills-2.active {
-  border-left: 8px solid #ffc107;
+  border-left: 8px solid #f8fab8;
 }
 #v-pills-3.active {
-  border-left: 8px solid #65c958;
+  border-left: 8px solid #d8ebb5;
 }
 #v-pills-4.active {
-  border-left: 8px solid #a04df9;
+  border-left: 8px solid #deddfa;
 }
 #v-pills-5.active {
-  border-left: 8px solid #ea484e;
-}
-#v-pills-6.active {
-  border-left: 8px solid #556b2f;
+  border-left: 8px solid #f3d4d4;
 }
 
 .v-pills-bg-1 {
-  background-color: #00adee;
+  background-color: #aeefec;
 }
 .v-pills-bg-2 {
-  background-color: #ffc107;
+  background-color: #f8fab8;
 }
 .v-pills-bg-3 {
-  background-color: #65c958;
+  background-color: #d8ebb5;
 }
 .v-pills-bg-4 {
-  background-color: #a04df9;
+  background-color: #deddfa;
 }
 .v-pills-bg-5 {
-  background-color: #ea484e;
-}
-.v-pills-bg-6 {
-  background-color: #556b2f;
+  background-color: #f3d4d4;
 }
 
 .overview-image {
@@ -129,77 +120,6 @@
   color: #dc3545 !important;
 }
 
-.pricing .card {
-  border: none;
-  border-radius: 1rem;
-  transition: all 0.2s;
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-}
-
-.pricing hr {
-  margin: 1.5rem 0;
-}
-
-.pricing .card-title {
-  margin: 1rem 0;
-  font-size: 0.9rem;
-  letter-spacing: 0.1rem;
-  font-weight: bold;
-}
-
-.pricing .card-price {
-  font-size: 3rem;
-  margin: 2rem 0;
-}
-
-.pricing .card-text {
-  font-size: 1.75rem;
-  margin: 2rem 0;
-}
-
-.pricing .card-price .period {
-  font-size: 0.8rem;
-  display: block;
-}
-
-.pricing ul li {
-  margin-bottom: 1rem;
-}
-
-.pricing .text-muted {
-  opacity: 0.7;
-}
-
-.pricing .card .btn {
-  font-size: 80%;
-  border-radius: 5rem;
-  letter-spacing: 0.1rem;
-  font-weight: bold;
-  padding: 1rem;
-  opacity: 0.7;
-  transition: all 0.2s;
-}
-
-/* Hover Effects on Card */
-
-@media (min-width: 992px) {
-  .pricing .card:hover {
-    margin-top: -0.25rem;
-    margin-bottom: 0.25rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
-  }
-  .pricing .card:hover .btn {
-    opacity: 1;
-  }
-}
-
-.pricing-text {
-  color: #f8f9fa;
-  line-height: 1.5em;
-  text-align: center;
-  padding: 1.5rem 0;
-}
-
 .carousel-control-prev {
   width: 10%;
 }
@@ -219,9 +139,58 @@
   text-align: center;
   margin: 0.6em auto;
   font-size: 1.4rem;
-  color: #abb9d6;
+  color: #000;
+  text-shadow: horizontal-offset vertical-offset blur color;
+  text-shadow: 1px 2px 1.5px rgba(0, 0, 0, 0.3);
 }
 
 .bg-gradient {
   background-image: linear-gradient(to bottom, #162950, #3c5beb);
+}
+.step {
+  padding: 8px;
+  border-bottom: 8px solid #bdcdea;
+  width: 90px;
+  margin-bottom: 20px;
+  color: grey;
+}
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background-image: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.pricing img.card-img-top {
+  height: 150px;
+}
+.carousel-item {
+  position: relative;
+
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.carousel-item .bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 70vh;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .carousel-item {
+    background: none;
+    padding: 0 10px;
+  }
+}
+a:hover {
+  text-decoration: none !important;
 }

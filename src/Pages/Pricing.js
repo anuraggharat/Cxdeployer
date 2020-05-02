@@ -1,12 +1,40 @@
 import React, { useState, useEffect } from "react";
 import PricingFeatures from "./PricingFeatures";
 import "../index.css";
-import { render } from "@testing-library/react";
 import $ from "jquery";
-import FeatureImg6 from "../assets/images/Pricing/free.svg";
-import professional from "../assets/images/Pricing/startup.svg";
-import business from "../assets/images/Pricing/growth.svg";
-import enterprise from "../assets/images/Pricing/enterprise.svg";
+import Free from "../assets/Pricing/free.svg";
+import Startup from "../assets/Pricing/startup.svg";
+import Growth from "../assets/Pricing/growth.svg";
+import Enterprise from "../assets/Pricing/enterprise.svg";
+import { Link } from "react-router-dom";
+
+const Collapse = ({ question, answer, id }) => (
+  <div className="accordion" id="accordionExample">
+    <div className="card">
+      <div className="card-header" id="headingOne">
+        <h2
+          className="mb-0 c-pointer"
+          data-toggle="collapse"
+          data-target={`#question${id}`}
+          aria-expanded="true"
+          aria-controls="collapseOne"
+        >
+          <button className="btn" type="button">
+            {question}
+          </button>
+        </h2>
+      </div>
+      <div
+        id={`question${id}`}
+        className="collapse"
+        aria-labelledby="headingOne"
+        data-parent="#accordionExample"
+      >
+        <div className="card-body">{answer}</div>
+      </div>
+    </div>
+  </div>
+);
 
 export default () => {
   const [isYearly, setIsYearly] = useState(true);
@@ -59,365 +87,226 @@ export default () => {
             </font>
           </div>
         </div>
-        <div className="row mt-5">
-          <div className="col-lg-3 mb-3 mb-lg-0">
-            <div class="card-group">
-              <img
-                class="card-img-top"
-                src={FeatureImg6}
-                alt="Card image"
-                style={{ margin: "10px 15px 2px 10px" }}
-              />
-              <br></br>
-              <div class="card-body text-center">
-                <h4 class="card-title">Free</h4>
-                <hr></hr>
-                <p class="card-text">
+
+        <section className="pricing py-5">
+          {/* Free Tier */}
+          <div className="card-deck">
+            <div className="card mb-5 mb-lg-0">
+              <div className="card-body">
+                <img src={Free} className="card-img-top  p-3" alt="..." />
+                <h5 className="card-title text-muted text-uppercase text-center">
+                  Free
+                </h5>
+                <hr />
+                <div className="text-center mb-2">
                   Get started and try our design thinking tools. Upgrade at any
                   time.
-                </p>
-                <br></br>
-                <h5 className="card-price text-center">
-                  <h1>
-                    <font color="blue">
-                      <sup>$</sup>
-                      {isYearly ? 0 : 0}
-                    </font>
-                  </h1>
-                </h5>
-                <small>
-                  <strong>per user /Monthly</strong>
-                </small>
-                <div className="text-center">
-                  <a href="#" class="btn btn-outline-primary ">
-                    Try for Free
-                  </a>
-                  <hr color="blue"></hr>
-
-                  <div style={{}}>
-                    <ul style={{ textAlign: "left" }}>
-                      <div>
-                        <strong>Free plan includes:</strong>
-                      </div>
-                      <br></br>
-                      Up to 1 User <br></br>
-                      <p></p>
-                      Up to 1 Projects<br></br>
-                      <p></p>
-                      Up to 1 Customer Journey Map<br></br>
-                      <p></p>
-                      Up to 1 Buisness Canvas Modal<br></br>
-                      <p></p>
-                      Up to 1 Personas<br></br>
-                      <p></p>
-                      Export to PDF & PNG<br></br>
-                      <p></p>
-                      Up to 50MB Storage<br></br>
-                      <p></p>
-                      Includes Audit Trial<br></br>
-                      <p></p>
-                      Community Support<br></br>
-                      <p></p>
-                    </ul>
-                  </div>
                 </div>
+                <h6 className="card-price text-center pt-2">
+                  $0<span className="period">/month</span>
+                </h6>
+                <div className="text-center">
+                  <small>&nbsp;</small>
+                </div>
+                <Link className="btn btn-block btn-primary text-uppercase mt-4">
+                  Subscribe
+                </Link>
+                <div className="pt-3 text-center">
+                  &nbsp; <br /> &nbsp;
+                </div>
+                <hr />
+                <ul className="fa-ul">
+                  <li>
+                    <strong>Free plan includes:</strong>
+                  </li>
+                  <li>1 User</li>
+                  <li>1 Project</li>
+                  <li>1 Customer Journey Map</li>
+                  <li>1 Buisness Model Canvas</li>
+                  <li>1 Persona</li>
+                  <li>Export to PDF & PNG</li>
+                  <li>Up to 50MB Storage</li>
+                  <li>Includes Audit Trial</li>
+                  <li>Community Support</li>
+                </ul>
               </div>
             </div>
-          </div>
-          <div className="col-lg-3 mb-3 mb-lg-0">
-            <div class="card-group">
-              <img
-                class="card-img-top"
-                src={professional}
-                alt="Card image"
-                style={{ margin: "10px 15px 6px 10px" }}
-              />
-              <br></br>
-              <div class="card-body  text-center">
-                <h4 class="card-title">Startup</h4>
-                <hr></hr>
-                <p class="card-text">
+            <div className="card mb-5 mb-lg-0">
+              <div className="card-body">
+                <img src={Startup} className="card-img-top  p-3" alt="..." />
+                <h5 className="card-title text-muted text-uppercase text-center">
+                  Startup
+                </h5>
+                <hr />
+                <div className="text-center mb-2">
                   For individuals, consultants and startups to digitize their
                   design thinking workshps.
-                </p>
-                <br></br>
-                <h5 className="card-price text-center">
-                  <h1>
-                    <font color="blue">
-                      <sup>$</sup>
-                      {isYearly ? 10 : 12}
-                    </font>{" "}
-                  </h1>
-                </h5>
-                <small>
-                  <strong>per user /Monthly</strong>
-                </small>
-                <div className="text-center">
-                  <a href="#" class="btn btn-outline-primary ">
-                    Subscribe
-                  </a>
-                  <hr color="blue"></hr>
-
-                  <div style={{}}>
-                    <ul style={{ textAlign: "left" }}>
-                      <div>
-                        <strong>All Free features plus:</strong>
-                      </div>
-                      <br></br>
-                      Up to 5 User<br></br>
-                      <p></p>
-                      Unlimited Projects <br></br>
-                      <p></p>
-                      Unlimited Customer Journey map<br></br>
-                      <p></p>
-                      Unlimited Business canvas model<br></br>
-                      <p></p>
-                      Unlimited Personas<br></br>
-                      <p></p>
-                      Unlimited Idwations <br></br>
-                      <p></p>
-                      Unlimited Kanban Boards <br></br>
-                      <p></p>
-                      Unlimited Comments <br></br>
-                      <p></p>
-                      Unlimited Views <br></br>
-                      <p></p>
-                      Export to PDF & PNG<br></br>
-                      <p></p>
-                      Up to 1 GB Storage<br></br>
-                      <p></p>
-                      Includes Audit Trial<br></br>
-                      <p></p>
-                      E-mail Support<br></br>
-                      <p></p>
-                    </ul>
-                  </div>
                 </div>
+                <h6 className="card-price text-center pt-2">
+                  ${isYearly ? "1" : "1.2"}
+                  <span className="period">per user/month</span>
+                </h6>
+                <div className="text-center">
+                  <small>(During Beta *)</small>
+                </div>
+                <Link className="btn btn-block btn-primary text-uppercase mt-4">
+                  Subscribe
+                </Link>
+                <div className="pt-3 text-center">
+                  * Subscribe now and get this price for next 12 months
+                </div>
+                <hr />
+                <ul className="fa-ul">
+                  <li>
+                    <strong>Professional Plan Includes</strong>
+                  </li>
+                  <li>Up to 5 Users</li>
+                  <li>Unlimited Projects</li>
+                  <li>Unlimited Customer Journey map</li>
+                  <li>Unlimited Business Model Canvas</li>
+                  <li>Unlimited Personas</li>
+                  <li>Unlimited Ideations</li>
+                  <li>Unlimited Kanban Boards</li>
+                  <li>Unlimited Comments</li>
+                  <li>Unlimited Views</li>
+                  <li>Export to PDF & PNG</li>
+                  <li>Up to 1 GB Storage</li>
+                  <li>Includes Audit Trial</li>
+                  <li>E-mail Support</li>
+                </ul>
               </div>
             </div>
-          </div>
-          <div className="col-lg-3 mb-3 mb-lg-0">
-            <div class="card-group ">
-              <img
-                class="card-img"
-                src={business}
-                alt="Card image"
-                style={{ margin: "15px 15px 16px 10px" }}
-              />
-
-              <div class="card-body  text-center">
-                <h4 class="card-title ">Growth</h4>
-                <hr></hr>
-                <p class="card-text ">
+            {/* Plus Tier */}
+            <div className="card mb-5 mb-lg-0">
+              <img src={Growth} className="card-img-top  p-3" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title text-muted text-uppercase text-center">
+                  Growth
+                </h5>
+                <hr />
+                <div className="text-center mb-2">
                   For growing organization and consulting teams to create and
                   deliver design thinking.
-                </p>
-                <br></br>
-                <h5 className="card-price text-center">
-                  <h1>
-                    <font color="blue">
-                      {" "}
-                      <sup>$</sup>
-                      {isYearly ? 20 : 24}
-                    </font>
-                  </h1>
-                </h5>
-                <small>
-                  <strong>per user /Monthly</strong>
-                </small>
-                <div className="text-center">
-                  <a href="#" class="btn btn-outline-primary ">
-                    Subscribe
-                  </a>
-                  <hr color="blue"></hr>
-
-                  <div style={{}}>
-                    <ul style={{ textAlign: "left", padding: "0px 10px 20px" }}>
-                      <div>
-                        <strong>All Professional features plus:</strong>
-                      </div>
-                      <br></br>
-                      Unlimited User<br></br>
-                      <p></p>
-                      Unlimited Projects <br></br>
-                      <p></p>
-                      Unlimited Customer Journey map<br></br>
-                      <p></p>
-                      Unlimited Business canvas model<br></br>
-                      <p></p>
-                      Unlimited Personas<br></br>
-                      <p></p>
-                      Unlimited Idwations <br></br>
-                      <p></p>
-                      Unlimited Kanban Boards <br></br>
-                      <p></p>
-                      Unlimited Comments <br></br>
-                      <p></p>
-                      Unlimited Views <br></br>
-                      <p></p>
-                      Export to PDF & PNG<br></br>
-                      <p></p>
-                      Unlimited Storage<br></br>
-                      <p></p>
-                      Includes Audit Trial<br></br>
-                      <p></p>
-                      Live chat & E-mail Support<br></br>
-                      <p></p>
-                    </ul>
-                  </div>
                 </div>
+                <h6 className="card-price text-center pt-2">
+                  ${isYearly ? "2" : "2.4"}
+                  <span className="period">per user/month</span>
+                </h6>
+                <div className="text-center">
+                  <small>(During Beta *)</small>
+                </div>
+                <Link className="btn btn-block btn-primary text-uppercase mt-4">
+                  Subscribe
+                </Link>
+                <div className="pt-3 text-center">
+                  * Subscribe now and get this price for next 12 months
+                </div>
+                <hr />
+                <ul className="fa-ul">
+                  <li>
+                    <strong>Growth Plan Includes</strong>
+                  </li>
+                  <li>Unlimited Users</li>
+                  <li>Unlimited Projects</li>
+                  <li>Unlimited Customer Journey map</li>
+                  <li>Unlimited Business Model Canvas</li>
+                  <li>Unlimited Personas</li>
+                  <li>Unlimited Ideations</li>
+                  <li>Unlimited Kanban Boards</li>
+                  <li>Unlimited Comments</li>
+                  <li>Unlimited Views</li>
+                  <li>Export to PDF & PNG</li>
+                  <li>Unlimited Storage</li>
+                  <li>Includes Audit Trial</li>
+                  <li>Live chat & E-mail Support</li>
+                </ul>
               </div>
             </div>
-          </div>
-          <div className="col-lg-3 mb-3 mb-lg-0">
-            <div class="card-group">
-              <img class="card-img" src={enterprise} alt="Card image" />
-
-              <div class="card-body text-center">
-                <h4 class="card-title">Enterprise</h4>
-                <hr></hr>
-                <p class="card-text">
+            {/* Pro Tier */}
+            <div className="card">
+              <img src={Enterprise} className="card-img-top p-3" alt="..." />
+              <div className="card-body">
+                <h5 className="card-title text-muted text-uppercase text-center">
+                  Enterprise
+                </h5>
+                <hr />
+                <div className="text-center mb-2">
                   For large organization that belives in design thinking as a
                   way of life.
-                </p>
-
-                <br></br>
-
-                <h5 className="card-price text-center">
-                  <font color="blue"> Install on your private server </font>
-                </h5>
-
-                <small>
-                  <strong>per user /Monthly</strong>
-                </small>
-                <font className="period" size="2px"></font>
-                <div className="text-center">
-                  <a
-                    href="#"
-                    class="btn btn-outline-primary"
-                    target="_blank"
-                    title="Try for free"
-                  >
-                    Contact Us
-                  </a>
-                  <hr color="blue"></hr>
-
-                  <div style={{}}>
-                    <ul style={{ textAlign: "left" }}>
-                      <div>
-                        <strong>All Business features plus:</strong>
-                      </div>
-                      <br></br>
-                      Unlimited User<br></br>
-                      <p></p>
-                      Unlimited Projects <br></br>
-                      <p></p>
-                      Unlimited Customer Journey map<br></br>
-                      <p></p>
-                      Unlimited Business canvas model<br></br>
-                      <p></p>
-                      Unlimited Personas<br></br>
-                      <p></p>
-                      Unlimited Idwations <br></br>
-                      <p></p>
-                      Unlimited Kanban Boards <br></br>
-                      <p></p>
-                      Unlimited Comments <br></br>
-                      <p></p>
-                      Unlimited Views <br></br>
-                      <p></p>
-                      Export to PDF & PNG<br></br>
-                      <p></p>
-                      Unlimited Storage<br></br>
-                      <p></p>
-                      Includes Audit Trial<br></br>
-                      <p></p>
-                      Single Sign-On Support<br></br>
-                      <p></p>
-                    </ul>
-                  </div>
-                  <p></p>
-                  <br></br>
-                  <p></p>
-                  <br></br>
-                  <br></br>
-                  <p></p>
-                  <p></p>
-                  <br></br>
                 </div>
+                <h6 className="card-price text-center pt-2">
+                  <div className="h5 my-4 py-2">
+                    Install on your private server
+                  </div>
+                </h6>
+                <Link className="btn btn-block btn-primary text-uppercase mt-4">
+                  Contact Us
+                </Link>
+                <div className="pt-3 text-center">
+                  &nbsp; <br /> &nbsp;
+                </div>
+                <hr />
+                <ul className="fa-ul">
+                  <li>
+                    <strong>Enterprise Plan Includes</strong>
+                  </li>
+                  <li>Unlimited Users</li>
+                  <li>Unlimited Projects</li>
+                  <li>Unlimited Customer Journey map</li>
+                  <li>Unlimited Business Model Canvas</li>
+                  <li>Unlimited Personas</li>
+                  <li>Unlimited Ideations</li>
+                  <li>Unlimited Kanban Boards</li>
+                  <li>Unlimited Comments</li>
+                  <li>Unlimited Views</li>
+                  <li>Export to PDF & PNG</li>
+                  <li>Unlimited Storage</li>
+                  <li>Includes Audit Trial</li>
+                  <li>Single Sign-On Support</li>
+                </ul>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
       <br></br>
       <div id="pricing" className="mt-5">
         <PricingFeatures />
       </div>
       <div class="container">
-        <div className="col-12 text-justify col-md-10 m-auto">
-          <div className="mt-3">
+        <div className="col-12 text-justify col-md-10 m-auto pt-5">
+          <div className="mt-5">
             <p>
               <h1 className="text-center">Frequently Asked Questions</h1>{" "}
-              <br></br>
-              <strong>
-                <font color="#2e4056" fontsize="18px">
-                  {" "}
-                  Here are the answers to the most common questions we get
-                </font>
-              </strong>
-              <br></br>
+              <h4 className="my-4 text-center">
+                Here are the answers to the most common questions we get
+              </h4>
             </p>
-            <p>
-              <h5>What if I need to add someone new to my team?</h5>
-              <font color="#2e4056" fontsize="16px">
-                If you need to add new members, you can do that. The value
-                charged per new user will be the same for the other members
-                included in the plan chosen by your company
-              </font>
-            </p>
-            <p>
-              <h5>
-                Can I change plans anytime I want? How long are the contracts?
-              </h5>
-              <font color="#2e4056" fontsize="16px">
-                CXDeployer plans work on a month-to-month basis. You can
-                start/stop or make changes to your plan any time you want –
-                however, we won’t give refunds for cancellation or plan
-                downgrades.
-              </font>
-            </p>
-            <p>
-              <h5>
-                Do I need any advanced technical skills or professional support
-                services to implement CXDeployer?
-              </h5>
-              <font color="#2e4056" fontsize="16px">
-                CXDeployer is designed to be simple and easy, allowing anyone to
-                configure their own processes and workflows. However, in large
-                and complex operations some companies like to have the support
-                of our professional consultants – in this case we can recommend
-                companies that offer those services.
-              </font>
-            </p>
-            <p>
-              <h5>Will my data be private and safe?</h5>
-              <font color="#2e4056" fontsize="16px">
-                Short answer: Yes. Long answer: take a look at all the security
-                measures we take to protect your business and your customers by
-                checking out our security whitepaper.
-              </font>
-            </p>
-            <p>
-              <h5>
-                Does CXDeployer integrate with other systems and applications?
-              </h5>
-              <font color="#2e4056" fontsize="16px">
-                You can integrate CXDeployer with over 500 web apps using
-                Zapier. Also, you can pretty much build anything you want via
-                our open developer API.
-              </font>
-            </p>
+            <Collapse
+              question="What if I need to add someone new to my team?"
+              answer="If you need to add new members, you can do that. The value charged per new user will be the same for the other members included in the plan chosen by your company"
+              id="1"
+            />
+            <Collapse
+              question="Can I change plans anytime I want? How long are the contracts?"
+              answer="CXDeployer plans work on a month-to-month basis. You can start/stop or make changes to your plan any time you want – however, we won’t give refunds for cancellation or plan downgrades."
+              id="2"
+            />
+            <Collapse
+              question="Do I need any advanced technical skills or professional support services to implement CXDeployer?"
+              answer="CXDeployer is designed to be simple and easy, allowing anyone to configure their own processes and workflows. However, in large and complex operations some companies like to have the support of our professional consultants – in this case we can recommend companies that offer those services."
+              id="3"
+            />
+            <Collapse
+              question="Will my data be private and safe?"
+              answer="Short answer: Yes. Long answer: take a look at all the security measures we take to protect your business and your customers by checking out our security whitepaper."
+              id="4"
+            />
+            <Collapse
+              question="Does CXDeployer integrate with other systems and applications?"
+              answer="You can integrate CXDeployer with over 500 web apps using Zapier. Also, you can pretty much build anything you want via our open developer API."
+              id="5"
+            />
           </div>
         </div>
       </div>

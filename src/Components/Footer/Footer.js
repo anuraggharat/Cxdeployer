@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
-import Logo1 from "../../assets/images/Logo1.png";
+import Logo1 from "../../assets/Logo1.png";
 
 export default () => {
   return (

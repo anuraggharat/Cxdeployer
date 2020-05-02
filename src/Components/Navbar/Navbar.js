@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Logo1 from "../../assets/images/Logo1.png";
+import Logo1 from "../../assets/Logo1.png";
 import { Link } from "react-router-dom";
 
 const $ = window.$;
@@ -89,7 +89,7 @@ export default () => {
 						<a className="nav-link js-scroll-trigger" href="#benefits">Benefits</a>
 					</li> */}
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to="/#features">
+              <Link className="nav-link js-scroll-trigger" to="/features">
                 Features
               </Link>
             </li>
@@ -116,7 +116,7 @@ export default () => {
                 rel="noopener noreferrer"
                 href="http://app.cxdeployer.com/#/"
                 target="_blank"
-                className="btn btn-light"
+                className="nav-link btn btn-light py-1 pb-3 pb-lg-1"
               >
                 <font color="black">Try for free</font>
               </a>

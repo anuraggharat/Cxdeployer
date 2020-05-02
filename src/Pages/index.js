@@ -5,6 +5,7 @@ import Contactus from "./Contactus";
 import Cookies from "./Cookies";
 import PrivacyPolicy from "./PrivacyPolicy";
 import TermsOfUse from "./TermsOfUse";
+import Features from "./Features/Features";
 
 export {
   Home,
@@ -14,4 +15,5 @@ export {
   Cookies,
   PrivacyPolicy,
   TermsOfUse,
+  Features,
 };
