@@ -89,7 +89,7 @@ export default () => {
 						<a className="nav-link js-scroll-trigger" href="#benefits">Benefits</a>
 					</li> */}
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to="/features">
+              <Link className="nav-link js-scroll-trigger" to="/#features">
                 Features
               </Link>
             </li>
