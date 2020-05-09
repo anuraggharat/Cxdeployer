@@ -4,13 +4,16 @@ import Banner2 from "../../../assets/Home/CX-deployer-banner-2.png";
 import Banner3 from "../../../assets/Home/CX-deployer-banner-1.png";
 import Banner4 from "../../../assets/Home/CX-deployer-banner-4.png";
 import Banner1Sm from "../../../assets/Home/CX-deployer-banner-3-sm.png";
-import Banner2Sm from "../../../assets/Home/CX-deployer-banner-2-sm.png";
+import Banner2Sm from "../../../assets/Home/CX-deployer-banner-2-sm-1.png";
 import Banner3Sm from "../../../assets/Home/CX-deployer-banner-1-sm.png";
 import Banner4Sm from "../../../assets/Home/CX-deployer-banner-4-sm.png";
 
 // Gradient
 // #0a1d44 top
 // #3360d9
+
+// 1040
+// 951
 
 export default () => {
   return (
@@ -31,7 +34,7 @@ export default () => {
       </ol>
       <div className="carousel-inner">
         <div
-          className="carousel-item active"
+          className="carousel-item rounded active"
           style={{
             backgroundImage: `url(${Banner1})`,
             minHeight: "80vh",
@@ -59,8 +62,8 @@ export default () => {
                   <div className="intro-desc">
                     <font style={{ fontFamily: "Arial" }}>
                       The Design thinking platform for you and your team for
-                      Designing personas and business models,mapping customer
-                      journeys,experience innovation and excution to improve
+                      Designing personas and business models, mapping customer
+                      journeys, experience innovation and execution to improve
                       customer experience.
                     </font>
                   </div>
@@ -84,7 +87,7 @@ export default () => {
           </div>
         </div>
         <div
-          className="carousel-item"
+          className="carousel-item rounded"
           style={{
             backgroundImage: `url(${Banner2})`,
             minHeight: "80vh",
@@ -139,7 +142,7 @@ export default () => {
           </div>
         </div>
         <div
-          className="carousel-item"
+          className="carousel-item rounded"
           style={{
             backgroundImage: `url(${Banner3})`,
             minHeight: "80vh",
@@ -161,7 +164,7 @@ export default () => {
                 <div className="intro-text p-md-5">
                   <div className="intro-lead-in text-uppercase ">
                     <font style={{ fontFamily: "arial", color: "blue" }}>
-                      <strong>Capture ideas to improve experience </strong>
+                      <strong>Capture ideas to improve experience</strong>
                     </font>
                   </div>
                   <div className="intro-desc">
@@ -191,7 +194,7 @@ export default () => {
           </div>
         </div>
         <div
-          className="carousel-item"
+          className="carousel-item rounded"
           style={{
             backgroundImage: `url(${Banner4})`,
             minHeight: "80vh",

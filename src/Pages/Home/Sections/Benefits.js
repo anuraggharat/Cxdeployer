@@ -44,7 +44,7 @@ const BenefitsCard = ({ img, title, text }) => {
 export default () => {
   return (
     <div className="container">
-      <div className="row card-deck">
+      <div className="row">
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={Achieveexperienceexcellence}
@@ -55,15 +55,15 @@ export default () => {
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={Clearlydefinetheserviceofferings}
-            title="Clearly define the service offerings."
+            title="Clearly define the service offerings"
             text="Draw and articulate the service offerings to your customers and enhance the customer experience."
           />
         </div>
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={SupportOperationalExcellence}
-            title="Support Operational Excellence."
-            text="Enable current-state insights, improvement opportunity analysis,and better decision making."
+            title="Support Operational Excellence"
+            text="Enable current-state insights, improvement opportunity analysis, and better decision making."
           />
         </div>
       </div>
@@ -72,21 +72,21 @@ export default () => {
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={Seethebigpicture}
-            title="See the big picture."
+            title="See the big picture"
             text="Develop a clear vision of the future by mapping end-to-end of a journey."
           />
         </div>
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={Powerfulvisualcommunication}
-            title="Powerful visual communication."
+            title="Powerful visual communication"
             text="Increate the retention – 80% of what we see, 20% of what we read and 10% of what we hear."
           />
         </div>
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={Realizebenefitsfaster}
-            title="Realize benefits faster."
+            title="Realize benefits faster"
             text="Involve everyone, get ideas and easily implement those ideas."
           />
         </div>
@@ -95,7 +95,7 @@ export default () => {
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={Increaseproductivity}
-            title="Increase productivity."
+            title="Increase productivity"
             text="Organize everything in one place to complete your improvement project in one place and execute faster across distributed teams."
           />
         </div>
@@ -103,7 +103,7 @@ export default () => {
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={BetterCustomerExperiences}
-            title="Better Customer Experiences."
+            title="Better Customer Experiences"
             text="Visualize and validate different ideas and enhance your customer experience."
           />
         </div>
@@ -111,7 +111,7 @@ export default () => {
           <BenefitsCard
             img={Benefit9}
             title="Realize the Yackit potential of everyone"
-            text="Involve everyone ,connect and get insights and ideas across teams from any location"
+            text="Involve everyone, connect and get insights and ideas across teams from any location"
           />
         </div>
       </div>

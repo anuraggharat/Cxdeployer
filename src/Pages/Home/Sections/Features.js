@@ -24,7 +24,7 @@ const PillTabs = ({ image, index, title, subtitle }) => {
           />
         </div>
         <p className="h2 my-3 font-weight-regular">{title}</p>
-        <p className="text-justify ">{subtitle}</p>
+        <p className="text-center">{subtitle}</p>
       </div>
     </div>
   );

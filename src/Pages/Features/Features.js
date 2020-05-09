@@ -1,9 +1,16 @@
 import React from "react";
 
+const Section = () => {
+  return <div>
+    <h4 className="text-center mb-3">Persona</h4>
+    <h2 className="text-center">Design your customer’s persona</h2>
+  </div>
+}
+
 export default () => {
   return (
-    <div className="container">
-      <div className="intro-text text-center py-md-5">
+    <div className="container pt-5">
+      <div className="intro-text text-center py-md-5 mb-5">
         <div className="intro-desc mb-0">
           <h5>The only solution you need to </h5>
         </div>
@@ -30,6 +37,7 @@ export default () => {
           </a>
         </div>
       </div>
+      <Section />
     </div>
   );
 };

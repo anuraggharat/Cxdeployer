@@ -108,9 +108,13 @@ export default () => {
                 <div className="text-center">
                   <small>&nbsp;</small>
                 </div>
-                <Link className="btn btn-block btn-primary text-uppercase mt-4">
-                  Subscribe
-                </Link>
+                <a
+                  href="http://app.cxdeployer.com/"
+                  target="_blank"
+                  className="btn btn-block btn-primary text-uppercase mt-4"
+                >
+                  Try for free
+                </a>
                 <div className="pt-3 text-center">
                   &nbsp; <br /> &nbsp;
                 </div>
@@ -140,7 +144,7 @@ export default () => {
                 <hr />
                 <div className="text-center mb-2">
                   For individuals, consultants and startups to digitize their
-                  design thinking workshps.
+                  design thinking workshops.
                 </div>
                 <h6 className="card-price text-center pt-2">
                   ${isYearly ? "1" : "1.2"}
@@ -149,16 +153,20 @@ export default () => {
                 <div className="text-center">
                   <small>(During Beta *)</small>
                 </div>
-                <Link className="btn btn-block btn-primary text-uppercase mt-4">
-                  Subscribe
-                </Link>
+                <a
+                  href="http://app.cxdeployer.com/"
+                  target="_blank"
+                  className="btn btn-block btn-primary text-uppercase mt-4"
+                >
+                  Try for free
+                </a>
                 <div className="pt-3 text-center">
                   * Subscribe now and get this price for next 12 months
                 </div>
                 <hr />
                 <ul className="fa-ul">
                   <li>
-                    <strong>Professional Plan Includes</strong>
+                    <strong>Startup Plan Includes</strong>
                   </li>
                   <li>Up to 5 Users</li>
                   <li>Unlimited Projects</li>
@@ -195,9 +203,13 @@ export default () => {
                 <div className="text-center">
                   <small>(During Beta *)</small>
                 </div>
-                <Link className="btn btn-block btn-primary text-uppercase mt-4">
-                  Subscribe
-                </Link>
+                <a
+                  href="http://app.cxdeployer.com/"
+                  target="_blank"
+                  className="btn btn-block btn-primary text-uppercase mt-4"
+                >
+                  Try for free
+                </a>
                 <div className="pt-3 text-center">
                   * Subscribe now and get this price for next 12 months
                 </div>
@@ -270,10 +282,7 @@ export default () => {
         </section>
       </div>
       <br></br>
-      <div id="pricing" className="mt-5">
-        <PricingFeatures />
-      </div>
-      <div class="container">
+      {/* <div class="container">
         <div className="col-12 text-justify col-md-10 m-auto pt-5">
           <div className="mt-5">
             <p>
@@ -309,7 +318,7 @@ export default () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

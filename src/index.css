@@ -92,7 +92,7 @@ span :hover {
     text-align: left;
   }
   .intro-text .intro-lead-in {
-    font-size: 40px;
+    font-size: 45px;
     line-height: 55px;
     margin-bottom: 25px;
   }
@@ -254,4 +254,8 @@ input:checked + .slider:before {
   padding: 1rem;
   opacity: 0.7;
   transition: all 0.2s;
+}
+.btn-primary {
+  background-color: rgb(22, 41, 80) !important;
+  border: none;
 }

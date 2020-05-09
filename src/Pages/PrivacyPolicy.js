@@ -22,8 +22,7 @@ export default () => (
         <div className="mt-3">
           Your privacy is important to us. It is PVSQUARE PRIVATE LIMITED's
           policy to respect your privacy regarding any information we may
-          collect from you across our website,
-          <a
+          collect from you across our website, <a
             rel="noopener noreferrer"
             target="_blank"
             href=" http://cxdeployer.com"

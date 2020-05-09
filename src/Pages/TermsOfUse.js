@@ -893,7 +893,7 @@ export default () => {
           </Para>
         </PolicySection>
         <PolicySection>
-          <Heading2>25) GENERAL PROVISIONS:</Heading2>
+          <Heading2>27) GENERAL PROVISIONS:</Heading2>
           <Para>
             <strong>a. LANGUAGE:</strong> All communications made or notices
             given pursuant to these Terms of Service shall be in the English

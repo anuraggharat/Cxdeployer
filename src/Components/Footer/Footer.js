@@ -7,7 +7,7 @@ export default () => {
   return (
     /* <!--FOOTER  --> */
     <footer className="custom-footer p-2 p-md-3">
-      <div className="row mb-3">
+      <div className="row mb-3 no-gutters">
         <div className="col-12  mb-3 mb-md-0 col-md-6">
           <Link to="/">
             <img src={Logo1} alt="Logo" width="auto" height="80" />
