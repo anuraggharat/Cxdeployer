@@ -259,3 +259,12 @@ input:checked + .slider:before {
   background-color: rgb(22, 41, 80) !important;
   border: none;
 }
+.features-section {
+  margin-bottom: 5em;
+}
+.features-section h5 {
+  margin-bottom: 0px;
+}
+.features-section .btn.btn-primary {
+  margin-top: 1em;
+}

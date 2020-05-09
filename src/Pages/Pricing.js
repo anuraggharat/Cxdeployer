@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import PricingFeatures from "./PricingFeatures";
 import "../index.css";
 import $ from "jquery";
 import Free from "../assets/Pricing/free.svg";
@@ -8,33 +7,33 @@ import Growth from "../assets/Pricing/growth.svg";
 import Enterprise from "../assets/Pricing/enterprise.svg";
 import { Link } from "react-router-dom";
 
-const Collapse = ({ question, answer, id }) => (
-  <div className="accordion" id="accordionExample">
-    <div className="card">
-      <div className="card-header" id="headingOne">
-        <h2
-          className="mb-0 c-pointer"
-          data-toggle="collapse"
-          data-target={`#question${id}`}
-          aria-expanded="true"
-          aria-controls="collapseOne"
-        >
-          <button className="btn" type="button">
-            {question}
-          </button>
-        </h2>
-      </div>
-      <div
-        id={`question${id}`}
-        className="collapse"
-        aria-labelledby="headingOne"
-        data-parent="#accordionExample"
-      >
-        <div className="card-body">{answer}</div>
-      </div>
-    </div>
-  </div>
-);
+// const Collapse = ({ question, answer, id }) => (
+//   <div className="accordion" id="accordionExample">
+//     <div className="card">
+//       <div className="card-header" id="headingOne">
+//         <h2
+//           className="mb-0 c-pointer"
+//           data-toggle="collapse"
+//           data-target={`#question${id}`}
+//           aria-expanded="true"
+//           aria-controls="collapseOne"
+//         >
+//           <button className="btn" type="button">
+//             {question}
+//           </button>
+//         </h2>
+//       </div>
+//       <div
+//         id={`question${id}`}
+//         className="collapse"
+//         aria-labelledby="headingOne"
+//         data-parent="#accordionExample"
+//       >
+//         <div className="card-body">{answer}</div>
+//       </div>
+//     </div>
+//   </div>
+// );
 
 export default () => {
   const [isYearly, setIsYearly] = useState(true);
@@ -111,6 +110,7 @@ export default () => {
                 <a
                   href="http://app.cxdeployer.com/"
                   target="_blank"
+                  without rel="noopener noreferrer"
                   className="btn btn-block btn-primary text-uppercase mt-4"
                 >
                   Try for free
@@ -156,6 +156,7 @@ export default () => {
                 <a
                   href="http://app.cxdeployer.com/"
                   target="_blank"
+                  without rel="noopener noreferrer"
                   className="btn btn-block btn-primary text-uppercase mt-4"
                 >
                   Try for free
@@ -206,6 +207,7 @@ export default () => {
                 <a
                   href="http://app.cxdeployer.com/"
                   target="_blank"
+                  without rel="noopener noreferrer"
                   className="btn btn-block btn-primary text-uppercase mt-4"
                 >
                   Try for free
