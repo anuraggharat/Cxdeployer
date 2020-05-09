@@ -267,4 +267,9 @@ input:checked + .slider:before {
 }
 .features-section .btn.btn-primary {
   margin-top: 1em;
+  background-image: linear-gradient(to right, #162950, #3c5beb);
+}
+
+.features-section .btn.btn-primary:focus {
+  background-image: linear-gradient(to right, #162950, #3c5beb) !important;
 }

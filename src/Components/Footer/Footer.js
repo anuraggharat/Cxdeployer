@@ -31,14 +31,14 @@ export default () => {
           </div>
         </div>
       </div>
-      <div class="text-center pb-3">
-        <Link class=" ml-4 text-white card-link text-white" to="/terms">
+      <div className="text-center pb-3">
+        <Link className=" ml-4 text-white card-link text-white" to="/terms">
           Terms of Use
         </Link>
-        <Link class="ml-4 card-link text-white" to="/privacypolicy">
+        <Link className="ml-4 card-link text-white" to="/privacypolicy">
           Privacy Policy
         </Link>
-        <Link class="ml-4 card-link text-white" to="/Cookies">
+        <Link className="ml-4 card-link text-white" to="/Cookies">
           Cookie Policy
         </Link>
       </div>

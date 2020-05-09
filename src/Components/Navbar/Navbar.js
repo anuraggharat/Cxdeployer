@@ -23,7 +23,7 @@ export default () => {
       $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (
           location.pathname.replace(/^\//, "") ===
-            this.pathname.replace(/^\//, "") &&
+          this.pathname.replace(/^\//, "") &&
           location.hostname === this.hostname
         ) {
           var target = $(this.hash);
@@ -89,7 +89,7 @@ export default () => {
 						<a className="nav-link js-scroll-trigger" href="#benefits">Benefits</a>
 					</li> */}
             <li className="nav-item">
-              <Link className="nav-link js-scroll-trigger" to="/#features">
+              <Link className="nav-link js-scroll-trigger" to="/features">
                 Features
               </Link>
             </li>
