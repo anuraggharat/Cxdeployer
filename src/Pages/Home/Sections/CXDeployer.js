@@ -26,9 +26,11 @@ const Section = ({ img, title, text, text2, step, isReversed, isGradient }) => (
         }`}
       >
         <div className="step h4">{step}</div>
-        <h1>{title}</h1>
-        <p style={{ fontSize: "1.2em" }}>{text}</p>
-        <p style={{ fontSize: "1.2em" }}>{text2}</p>
+        <h1 className="step-text">{title}</h1>
+        <div className="step-desc">
+          <p style={{ fontSize: "1.2em" }}>{text}</p>
+          <p style={{ fontSize: "1.2em" }}>{text2}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -37,22 +39,25 @@ const Section = ({ img, title, text, text2, step, isReversed, isGradient }) => (
 export default () => {
   return (
     <div className="">
-      <div className="py-5">
-        <h1 className="text-center">What is CXDeployer?</h1>
-        <p className="text-center px-lg-5">
-          CXDeployer is a cloud based all-in-one solution that enables design
-          thinking professionals to deploy, and transform the customer
-          experience by creating, sharing and presenting the persona map,
-          business model canvas, customer journey map, ideation and execution
-          management of the best idea.
-        </p>
+      <div className="bg-gradient-2">
+        <div className="py-5"></div>
+        <div className="py-5">
+          <h1 className="text-center intro-lead-in">What is CXDeployer?</h1>
+          <p className="text-center px-lg-5 container-lg cx-desc">
+            CXDeployer is a cloud based all-in-one solution that enables design
+            thinking professionals to deploy, and transform the customer
+            experience by creating, sharing and presenting the persona map,
+            business model canvas, customer journey map, ideation and execution
+            management of the best idea.
+          </p>
+        </div>
+        <div className="py-5"></div>
       </div>
       <Section
         title="Map the persona"
         text="Know your customer or users by mapping, their goals, aspirations, lifestyle, interest and digital habits."
         text2="What matters most to the persona and whose experience should be enhanced?"
         img={Persona}
-        isGradient
         step="Step 1"
       />
       <Section
@@ -61,6 +66,7 @@ export default () => {
         text2="What customer wants to achieve?"
         img={BMC}
         step="Step 2"
+        isGradient
         isReversed
       />
       <Section
@@ -69,7 +75,6 @@ export default () => {
         text2="What is the start and end point of the experience?"
         img={CJM}
         step="Step 3"
-        isGradient
       />
       <Section
         title="Ideate on the experience"
@@ -78,13 +83,13 @@ export default () => {
         img={KBB}
         step="Step 4"
         isReversed
+        isGradient
       />
       <Section
         title="Manage execution of the best idea"
         text="Project manage the execution of the bestidea, prototype, accelerate idea toimplementation and continuously improve the experience. What is the time to market to realize thetransformed experience?"
         text2="What is the time to market to realize thetransformed experience?"
         img={Ideate}
-        isGradient
         step="Step 5"
       />
     </div>

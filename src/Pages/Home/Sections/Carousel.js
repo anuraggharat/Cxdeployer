@@ -55,8 +55,10 @@ export default () => {
               <div className="col-12 col-md-6">
                 <div className="intro-text p-md-5">
                   <div className="intro-lead-in text-uppercase ">
-                    <font style={{ fontFamily: "arial", color: "blue" }}>
-                      <strong>Transform your customer experience </strong>
+                    <font style={{ fontFamily: "arial" }}>
+                      <strong>
+                        Transform your customer <br /> experience{" "}
+                      </strong>
                     </font>
                   </div>
                   <div className="intro-desc">
@@ -108,7 +110,7 @@ export default () => {
               <div className="col-12 col-md-6">
                 <div className="intro-text p-md-5">
                   <div className="intro-lead-in text-uppercase ">
-                    <font style={{ fontFamily: "arial", color: "blue" }}>
+                    <font style={{ fontFamily: "arial" }}>
                       <strong>
                         Collaborate and map the current experience
                       </strong>
@@ -163,7 +165,7 @@ export default () => {
               <div className="col-12 col-md-6">
                 <div className="intro-text p-md-5">
                   <div className="intro-lead-in text-uppercase ">
-                    <font style={{ fontFamily: "arial", color: "blue" }}>
+                    <font style={{ fontFamily: "arial" }}>
                       <strong>Capture ideas to improve experience</strong>
                     </font>
                   </div>
@@ -215,7 +217,7 @@ export default () => {
               <div className="col-12 col-md-6">
                 <div className="intro-text p-md-5">
                   <div className="intro-lead-in text-uppercase ">
-                    <font style={{ fontFamily: "arial", color: "blue" }}>
+                    <font style={{ fontFamily: "arial" }}>
                       <strong>Manage deployment of the best idea </strong>
                     </font>
                   </div>

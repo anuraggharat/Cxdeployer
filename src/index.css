@@ -70,20 +70,26 @@ span :hover {
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
-.intro-text .intro-lead-in,
+.intro-lead-in,
 .pricing-lead {
   font-size: 22px;
   line-height: 35px;
-  color: black !important;
+  color: black;
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
-.intro-text .intro-desc,
+.intro-desc,
 .pricing-lead-second {
   font-size: 13px;
   line-height: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.cx-desc {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /*  */
 /*  */
 
@@ -91,17 +97,24 @@ span :hover {
   .intro-text {
     text-align: left;
   }
-  .intro-text .intro-lead-in {
+  .intro-lead-in {
     font-size: 45px;
     line-height: 55px;
     margin-bottom: 25px;
+  }
+  .intro-lead-in.text-center {
+    color: #fff;
+    font-size: 55px;
+  }
+  .container-lg.cx-desc {
+    font-size: 22px;
   }
   .pricing-lead {
     margin-top: 25px;
     font-size: 40px;
     line-height: 55px;
   }
-  .intro-text .intro-desc {
+  .intro-desc {
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 25px;
@@ -277,5 +290,12 @@ input:checked + .slider:before {
   background: linear-gradient(to bottom, #ccffff 0%, #0099cc 100%);
 }
 .bg-gradient-2 {
-  background: linear-gradient(to bottom, #ffffff 0%, #0033cc 100%);
+  background: #4069da;
+  color: #fff !important;
+}
+.step-text {
+  font-size: 40px;
+}
+.intro-lead-in.text-uppercase {
+  color: rgb(119, 119, 119);
 }
