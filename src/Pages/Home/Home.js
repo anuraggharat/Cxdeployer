@@ -22,7 +22,7 @@ export default class extends Component {
             <Benefits />
           </div>
         </div>
-        <div className="container mt-5">
+        <div className="mt-5">
           <div id="CXDeployer" className="mt-5">
             <CXDeployer />
           </div>

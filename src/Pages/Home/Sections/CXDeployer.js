@@ -5,29 +5,31 @@ import CJM from "../../../assets/Home/CX_deployer-step-3.svg";
 import KBB from "../../../assets/Home/CX_deployer-step4.svg";
 import Ideate from "../../../assets/Home/CX_deployer-step-5.svg";
 
-const Section = ({ img, title, text, text2, step, isReversed }) => (
-  <div className="row ">
-    <div
-      className={`col-12 col-md-6 my-5 order-lg-1 ${
-        isReversed && "order-lg-3"
+const Section = ({ img, title, text, text2, step, isReversed, isGradient }) => (
+  <div className={isGradient && "bg-gradient-1"}>
+    <div className="row container m-auto">
+      <div
+        className={`col-12 col-md-6 my-5 order-lg-1 ${
+          isReversed && "order-lg-3"
         }`}
-    >
-      <img
-        src={img}
-        alt="persona"
-        className="img-fluid"
-        style={{ height: "300px" }}
-      />
-    </div>
-    <div
-      className={`col-12 col-md-6 my-5 order-lg-2 d-flex justify-content-center flex-column ${
-        isReversed && "order-2 pr-5"
+      >
+        <img
+          src={img}
+          alt="persona"
+          className="img-fluid"
+          style={{ height: "300px" }}
+        />
+      </div>
+      <div
+        className={`col-12 col-md-6 my-5 order-lg-2 d-flex justify-content-center flex-column ${
+          isReversed && "order-2 pr-5"
         }`}
-    >
-      <div className="step h4">{step}</div>
-      <h1>{title}</h1>
-      <p style={{ fontSize: "1.2em" }}>{text}</p>
-      <p style={{ fontSize: "1.2em" }}>{text2}</p>
+      >
+        <div className="step h4">{step}</div>
+        <h1>{title}</h1>
+        <p style={{ fontSize: "1.2em" }}>{text}</p>
+        <p style={{ fontSize: "1.2em" }}>{text2}</p>
+      </div>
     </div>
   </div>
 );
@@ -50,6 +52,7 @@ export default () => {
         text="Know your customer or users by mapping, their goals, aspirations, lifestyle, interest and digital habits."
         text2="What matters most to the persona and whose experience should be enhanced?"
         img={Persona}
+        isGradient
         step="Step 1"
       />
       <Section
@@ -66,6 +69,7 @@ export default () => {
         text2="What is the start and end point of the experience?"
         img={CJM}
         step="Step 3"
+        isGradient
       />
       <Section
         title="Ideate on the experience"
@@ -80,6 +84,7 @@ export default () => {
         text="Project manage the execution of the bestidea, prototype, accelerate idea toimplementation and continuously improve the experience. What is the time to market to realize thetransformed experience?"
         text2="What is the time to market to realize thetransformed experience?"
         img={Ideate}
+        isGradient
         step="Step 5"
       />
     </div>

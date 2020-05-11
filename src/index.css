@@ -273,3 +273,9 @@ input:checked + .slider:before {
 .features-section .btn.btn-primary:focus {
   background-image: linear-gradient(to right, #162950, #3c5beb) !important;
 }
+.bg-gradient-1 {
+  background: linear-gradient(to bottom, #ccffff 0%, #0099cc 100%);
+}
+.bg-gradient-2 {
+  background: linear-gradient(to bottom, #ffffff 0%, #0033cc 100%);
+}
