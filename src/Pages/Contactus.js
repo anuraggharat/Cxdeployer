@@ -17,7 +17,7 @@ export default () => {
       </div>
       <div className="container mt-3">
         <div class="card-deck">
-          <div className="card">
+          <div className="card border-0 shadow-lg">
             <div className="d-flex justify-content-center">
               <img
                 className="card-img-top pt-4"
@@ -43,7 +43,7 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="card">
+          <div className="card border-0 shadow-lg">
             <div className="d-flex justify-content-center">
               <img
                 className="card-img-top pt-4"
@@ -68,7 +68,7 @@ export default () => {
               </a>
             </div>
           </div>
-          <div className="card">
+          <div className="card border-0 shadow-lg">
             <div className="d-flex justify-content-center">
               <img
                 className="card-img-top pt-4"
@@ -86,7 +86,7 @@ export default () => {
             <div class="card-footer mb-3 text-center bg-transparent border-top-0">
               <a
                 rel="noopener noreferrer"
-                href="https://app.cxdeployer.com/#/"
+                href="mailto:anuraggharat55@gmail.com"
                 target="_blank"
                 class="btn btn-primary"
               >
