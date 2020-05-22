@@ -57,15 +57,9 @@ export default () => {
               <h5 className="card-title">Schedule a meeting</h5>
               <p>Get a call within 24hrs</p>
             </div>
-            <div class="card-footer mb-3 text-center bg-transparent border-top-0">
-              <a
-                rel="noopener noreferrer"
-                href="https://app.cxdeployer.com/#/"
-                target="_blank"
-                class="btn btn-primary"
-              >
-                Schedule
-              </a>
+            <div className="card-footer mb-3 text-center bg-transparent border-top-0">
+        
+            <a href="https://calendly.com/gharatanurag778/15min"  >Schedule time </a>
             </div>
           </div>
           <div className="card border-0 shadow-lg">
@@ -108,3 +102,12 @@ const styles = {
     marginBottom: "10px",
   },
 };
+
+
+
+
+
+
+
+
+

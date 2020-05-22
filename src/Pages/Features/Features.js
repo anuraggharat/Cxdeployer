@@ -8,7 +8,7 @@ import Img4 from "../../assets/Features/4.png"
 export default () => {
   return (
     <div className=" pt-5">
-      <div className="intro-text text-center py-md-5 mb-5">
+      <div className="intro-text text-center py-md-5 mb-5 p-5">
         <div className="intro-desc mb-0">
           <h5>The only solution you need to </h5>
         </div>
@@ -36,8 +36,8 @@ export default () => {
         </div>
       </div>
       <div className="features-section gradient-1 p-5 ">
-        <h3 className="text-center text-white font-italic">Persona</h3>
-        <h2 className="text-center my-3 text-white">Design your customer’s persona</h2>
+        <h3 className="text-center  font-italic">Persona</h3>
+        <h2 className="text-center my-3 ">Design your customer’s persona</h2>
         <div className="row">
           <div className="col-12 col-md-6 mt-5 order-2 order-md-1 px-5 ">
             <div className="d-flex align-items-center mb-5">
@@ -97,7 +97,7 @@ export default () => {
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn gradient-1 border-0 shadow-lg text-white p-4">CREATE EMPATHY MAP ONLINE NOW</a>
+            target="_blank" className="btn gradient-1 border-0 shadow-lg  p-4">CREATE EMPATHY MAP ONLINE NOW</a>
         </div>
       </div>
       <div className="features-section  gradient-1 p-5">
@@ -161,7 +161,7 @@ export default () => {
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn gradient-1 border-0 shadow-lg text-white p-4">MAP CUSTOMER JOURNEY ONLINE NOW</a>
+            target="_blank" className="btn gradient-1 border-0 shadow-lg p-4">MAP CUSTOMER JOURNEY ONLINE NOW</a>
         </div>
       </div>
       {/* <div className="features-section">
