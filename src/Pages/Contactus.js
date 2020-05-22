@@ -86,7 +86,7 @@ export default () => {
             <div class="card-footer mb-3 text-center bg-transparent border-top-0">
               <a
                 rel="noopener noreferrer"
-                href="mailto:anuraggharat55@gmail.com"
+                href="mailto:contact@xsdeployer.com"
                 target="_blank"
                 class="btn btn-primary"
               >

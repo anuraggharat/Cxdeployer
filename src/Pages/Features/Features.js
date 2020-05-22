@@ -7,7 +7,7 @@ import Img4 from "../../assets/Features/4.png"
 
 export default () => {
   return (
-    <div className="container pt-5">
+    <div className=" pt-5">
       <div className="intro-text text-center py-md-5 mb-5">
         <div className="intro-desc mb-0">
           <h5>The only solution you need to </h5>
@@ -35,11 +35,11 @@ export default () => {
           </a>
         </div>
       </div>
-      <div className="features-section">
-        <h3 className="text-center ">Persona</h3>
-        <h2 className="text-center my-3">Design your customer’s persona</h2>
+      <div className="features-section gradient-1 p-5 ">
+        <h3 className="text-center text-white font-italic">Persona</h3>
+        <h2 className="text-center my-3 text-white">Design your customer’s persona</h2>
         <div className="row">
-          <div className="col-12 col-md-6 mt-5 order-2 order-md-1">
+          <div className="col-12 col-md-6 mt-5 order-2 order-md-1 px-5 ">
             <div className="d-flex align-items-center mb-5">
               <img src={Tick} alt="" className="img-fluid mr-5" width="40" height="40" />
               <h5>Create custom layout</h5>
@@ -65,14 +65,14 @@ export default () => {
           <a
             rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn btn-secondary p-4">DESIGN PERSONA ONLINE NOW</a>
+            target="_blank" className="btn bg-white primary-text shadow-lg p-4">DESIGN PERSONA ONLINE NOW</a>
         </div>
       </div>
-      <div className="features-section">
+      <div className="features-section p-5">
         <h3 className="text-center ">Empathy Map</h3>
         <h2 className="text-center my-3">Describe your customer’s thinking, feeling, fear, hope and dreams</h2>
         <div className="row">
-          <div className="col-12 col-md-6 mt-5 order-2 order-md-1">
+          <div className="col-12 col-md-6 mt-5 order-2 order-md-1 p-5">
             <div className="d-flex align-items-center mb-5">
               <img src={Tick} alt="" className="img-fluid mr-5" width="40" height="40" />
               <h5>Map empathy for multiple personas</h5>
@@ -97,14 +97,14 @@ export default () => {
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn btn-secondary p-4">CREATE EMPATHY MAP ONLINE NOW</a>
+            target="_blank" className="btn gradient-1 border-0 shadow-lg text-white p-4">CREATE EMPATHY MAP ONLINE NOW</a>
         </div>
       </div>
-      <div className="features-section">
-        <h3 className="text-center ">Business Model Canvas</h3>
-        <h2 className="text-center my-3">Design and analyze solution’s value proposition</h2>
+      <div className="features-section  gradient-1 p-5">
+        <h3 className="text-center text-white">Business Model Canvas</h3>
+        <h2 className="text-center text-white my-3">Design and analyze solution’s value proposition</h2>
         <div className="row">
-          <div className="col-12 col-md-6 mt-5 order-2 order-md-1">
+          <div className="col-12 col-md-6 mt-5 order-2 order-md-1 p-5">
             <div className="d-flex align-items-center mb-5">
               <img src={Tick} alt="" className="img-fluid mr-5" width="40" height="40" />
               <h5>Easy to organize in a page</h5>
@@ -122,14 +122,14 @@ export default () => {
               <h5>Comments and feedback</h5>
             </div>
           </div>
-          <div className="col-12 col-md-6 order-1 order-md-2">
+          <div className="col-12 col-md-6 order-1 order-md-2 p-5">
             <img src={Img1} className="img-fluid" alt="" />
           </div>
         </div>
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn btn-secondary p-4">CREATE BUSINESS  MODEL CANVAS ONLINE NOW</a>
+            target="_blank" className="btn bg-white primary-text shadow-lg p-4">CREATE BUSINESS  MODEL CANVAS ONLINE NOW</a>
         </div>
       </div>
       <div className="features-section">
@@ -161,7 +161,7 @@ export default () => {
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn btn-secondary p-4">MAP CUSTOMER JOURNEY ONLINE NOW</a>
+            target="_blank" className="btn gradient-1 border-0 shadow-lg text-white p-4">MAP CUSTOMER JOURNEY ONLINE NOW</a>
         </div>
       </div>
       {/* <div className="features-section">
