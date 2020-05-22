@@ -63,7 +63,7 @@ export default () => {
       id="mainNav"
     >
       <div className="container">
-        <Link className="navbar-brand js-scroll-trigger" to="/#carousel">
+        <Link className="navbar-brand js-scroll-trigger" to="/">
           <img
             src={Logo1}
             tintcolor="red"
@@ -106,7 +106,7 @@ export default () => {
             <li className="nav-item">
               <a
                 className="nav-link js-scroll-trigger"
-                href="http://app.cxdeployer.com/#/sign-in"
+                href="https://app.cxdeployer.com/#/sign-in"
               >
                 Login
               </a>
@@ -114,7 +114,7 @@ export default () => {
             <li className="nav-item">
               <a
                 rel="noopener noreferrer"
-                href="http://app.cxdeployer.com/#/"
+                href="https://app.cxdeployer.com/#/"
                 target="_blank"
                 className="nav-link btn btn-light py-1 pb-3 pb-lg-1"
               >

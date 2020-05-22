@@ -27,9 +27,9 @@ export default () => {
         <div style={{ textAlign: "center" }}>
           <a
             rel="noopener noreferrer"
-            href="http://app.cxdeployer.com/#/"
+            href="https://app.cxdeployer.com/#/"
             target="_blank"
-            className="btn btn-primary"
+            className="btn btn-secondary"
           >
             <font color="white">Try CXDeployer for free</font>
           </a>
@@ -64,8 +64,8 @@ export default () => {
         <div className="text-center mt-3">
           <a
             rel="noopener noreferrer"
-            href="http://app.cxdeployer.com/#/"
-            target="_blank" className="btn btn-primary">DESIGN PERSONA ONLINE NOW</a>
+            href="https://app.cxdeployer.com/#/"
+            target="_blank" className="btn btn-secondary p-4">DESIGN PERSONA ONLINE NOW</a>
         </div>
       </div>
       <div className="features-section">
@@ -96,13 +96,13 @@ export default () => {
         </div>
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
-            href="http://app.cxdeployer.com/#/"
-            target="_blank" className="btn btn-primary">CREATE EMPATHY MAP ONLINE NOW</a>
+            href="https://app.cxdeployer.com/#/"
+            target="_blank" className="btn btn-secondary p-4">CREATE EMPATHY MAP ONLINE NOW</a>
         </div>
       </div>
       <div className="features-section">
         <h3 className="text-center ">Business Model Canvas</h3>
-        <h2 className="text-center my-3">Design and analyze solution’s value preposition</h2>
+        <h2 className="text-center my-3">Design and analyze solution’s value proposition</h2>
         <div className="row">
           <div className="col-12 col-md-6 mt-5 order-2 order-md-1">
             <div className="d-flex align-items-center mb-5">
@@ -128,8 +128,8 @@ export default () => {
         </div>
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
-            href="http://app.cxdeployer.com/#/"
-            target="_blank" className="btn btn-primary">CREATE BUSINESS  MODEL CANVAS ONLINE NOW</a>
+            href="https://app.cxdeployer.com/#/"
+            target="_blank" className="btn btn-secondary p-4">CREATE BUSINESS  MODEL CANVAS ONLINE NOW</a>
         </div>
       </div>
       <div className="features-section">
@@ -160,8 +160,8 @@ export default () => {
         </div>
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
-            href="http://app.cxdeployer.com/#/"
-            target="_blank" className="btn btn-primary">MAP CUSTOMER JOURNEY ONLINE NOW</a>
+            href="https://app.cxdeployer.com/#/"
+            target="_blank" className="btn btn-secondary p-4">MAP CUSTOMER JOURNEY ONLINE NOW</a>
         </div>
       </div>
       {/* <div className="features-section">
@@ -191,7 +191,7 @@ export default () => {
           </div>
         </div>
         <div className="text-center mt-3">
-          <button className="btn btn-primary">TRY CXDEPLOYER NOW</button>
+          <button className="btn btn-secondary">TRY CXDEPLOYER NOW</button>
         </div>
       </div> */}
       {/* <div className="features-section">
@@ -221,7 +221,7 @@ export default () => {
           </div>
         </div>
         <div className="text-center mt-3">
-          <button className="btn btn-primary">TRY CXDEPLOYER NOW</button>
+          <button className="btn btn-secondary">TRY CXDEPLOYER NOW</button>
         </div>
       </div> */}
     </div>

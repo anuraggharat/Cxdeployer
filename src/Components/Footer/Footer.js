@@ -13,7 +13,7 @@ export default () => {
             <img src={Logo1} alt="Logo" width="auto" height="80" />
           </Link>
           <div className="text-white logo-content w-50">
-            The only one platform you need to transform your customer experience
+            The only platform that you require, so that you can transform your customer experience
           </div>
         </div>
         <div className="col-12 col-md-6 d-flex justify-content-end align-items-center">

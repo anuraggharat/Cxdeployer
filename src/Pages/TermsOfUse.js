@@ -23,9 +23,10 @@ export default () => {
             (hereinafter the "Terms of Service"), all parts and sub-parts of
             which are specifically incorporated by reference here together with
             the Privacy Policy. Following are the Terms of Service governing
-            your use of www.mapanyprocess.com (the "Website"), all pages on the
-            Website and any services provided by or on this Website
-            ("Services").
+            your use of{" "}
+            <a href="https://www.cxdeployer.com">www.cxdeployer.com</a> (the
+            "Website"), all pages on the Website and any services provided by or
+            on this Website ("Services").
           </div>
           <div>
             By accessing either directly or through a hyperlink, the Website,

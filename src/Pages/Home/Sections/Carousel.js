@@ -63,16 +63,16 @@ export default () => {
                   </div>
                   <div className="intro-desc">
                     <font style={{ fontFamily: "Arial" }}>
-                      The Design thinking platform for you and your team for
-                      Designing personas and business models, mapping customer
-                      journeys, experience innovation and execution to improve
+                      The design thinking platform for you and your team for
+                      designing personas and business models, mapping customer
+                      journeys, experience innovation and execution management to improve
                       customer experience.
                     </font>
                   </div>
                   <div style={{ textAlign: "center" }}>
                     <a
                       rel="noopener noreferrer"
-                      href="http://app.cxdeployer.com/#/"
+                      href="https://app.cxdeployer.com/#/"
                       target="_blank"
                       className="btn btn-primary"
                       style={{ zIndex: "100", align: "left", width: "10" }}
@@ -118,16 +118,15 @@ export default () => {
                   </div>
                   <div className="intro-desc">
                     <font style={{ fontFamily: "Arial" }}>
-                      The simplest tool to capture the current experience by
-                      mapping persona, empathy and customer journey. Accomplish
-                      more by collaborating and sharing feedback with the team
-                      in real time.
+                      The simplest tool to capture the current experience along
+                      with collaborating and sharing feedback with the team in 
+                      real time for mapping persona, empathy and customer journey. 
                     </font>
                   </div>
                   <div style={{ textAlign: "center" }}>
                     <a
                       rel="noopener noreferrer"
-                      href="http://app.cxdeployer.com/#/"
+                      href="https://app.cxdeployer.com/#/"
                       target="_blank"
                       className="btn btn-primary"
                       style={{ zIndex: "100", align: "left", width: "10" }}
@@ -179,7 +178,7 @@ export default () => {
                   <div style={{ textAlign: "center" }}>
                     <a
                       rel="noopener noreferrer"
-                      href="http://app.cxdeployer.com/#/"
+                      href="https://app.cxdeployer.com/#/"
                       target="_blank"
                       className="btn btn-primary"
                       style={{ zIndex: "100", align: "left", width: "10" }}
@@ -231,7 +230,7 @@ export default () => {
                   <div style={{ textAlign: "center" }}>
                     <a
                       rel="noopener noreferrer"
-                      href="http://app.cxdeployer.com/#/"
+                      href="https://app.cxdeployer.com/#/"
                       target="_blank"
                       className="btn btn-primary"
                       style={{ zIndex: "100", align: "left", width: "10" }}

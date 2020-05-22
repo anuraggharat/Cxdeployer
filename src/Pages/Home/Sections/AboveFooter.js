@@ -7,7 +7,8 @@ export default () => (
       style={{ backgroundColor: "#dcd6f7" }}
     >
       <div className="h3">
-        CXDeployer transforms the you conduct design thinking workshops
+        CXDeployer transforms the way you conduct
+        design thinking workshops.
       </div>
       <div className="d-flex flex-column flex-md-row justify-content-center py-4">
         <div
@@ -16,7 +17,7 @@ export default () => (
         >
           <a
             rel="noopener noreferrer"
-            href="http://app.cxdeployer.com/#/"
+            href="https://app.cxdeployer.com/#/"
             target="_blank"
             className="text-white"
           >

@@ -12,6 +12,20 @@
   margin-bottom: 2em;
 }
 
+.bgS {
+  background-color: #f2f4f5;
+}
+
+.cxd {
+  font-size: 5rem;
+}
+
+@media (max-width: 800px) {
+  .cxd {
+    font-size: 4rem;
+  }
+}
+
 .benefits-card .card-body {
   height: 15rem;
 }
@@ -150,7 +164,7 @@
 .step {
   padding: 8px;
   border-bottom: 8px solid #bdcdea;
-  width: 90px;
+  width: 150px;
   margin-bottom: 20px;
   color: grey;
 }
@@ -200,5 +214,9 @@ a:hover {
   text-decoration: none !important;
 }
 .step-desc {
-  font-size: 16px;
+  font-size: 18px;
+}
+
+.step-text {
+  font-size: 60px;
 }

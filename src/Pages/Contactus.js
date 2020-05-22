@@ -1,7 +1,7 @@
 import React from "react";
-import Livechat from "../assets/Home/Livechat.svg";
-import Schedulemeeting from "../assets/Home/Schedulemeeting.svg";
-import Submitrequest from "../assets/Home/Submitrequest.svg";
+import Livechat from "../assets/Home/live chat.svg";
+import Schedulemeeting from "../assets/Home/meeting.svg";
+import Submitrequest from "../assets/Home/request.svg";
 
 export default () => {
   return (
@@ -20,10 +20,11 @@ export default () => {
           <div className="card">
             <div className="d-flex justify-content-center">
               <img
-                className="card-img-top"
+                className="card-img-top pt-4"
                 src={Livechat}
                 style={styles.cardImg}
                 alt="Card cap2"
+                style={{ height: "180px" }}
               />
             </div>
             <div className="card-body">
@@ -45,10 +46,11 @@ export default () => {
           <div className="card">
             <div className="d-flex justify-content-center">
               <img
-                className="card-img-top"
+                className="card-img-top pt-4"
                 src={Schedulemeeting}
                 style={styles.cardImg}
                 alt="Card cap1"
+                style={{ height: "180px" }}
               />
             </div>
             <div className="card-body">
@@ -58,7 +60,7 @@ export default () => {
             <div class="card-footer mb-3 text-center bg-transparent border-top-0">
               <a
                 rel="noopener noreferrer"
-                href="http://app.cxdeployer.com/#/"
+                href="https://app.cxdeployer.com/#/"
                 target="_blank"
                 class="btn btn-primary"
               >
@@ -69,10 +71,11 @@ export default () => {
           <div className="card">
             <div className="d-flex justify-content-center">
               <img
-                className="card-img-top"
+                className="card-img-top pt-4"
                 src={Submitrequest}
                 style={styles.cardImg}
                 alt="Card cap3"
+                style={{ height: "180px" }}
               />
             </div>
             <div className="card-body">
@@ -83,7 +86,7 @@ export default () => {
             <div class="card-footer mb-3 text-center bg-transparent border-top-0">
               <a
                 rel="noopener noreferrer"
-                href="http://app.cxdeployer.com/#/"
+                href="https://app.cxdeployer.com/#/"
                 target="_blank"
                 class="btn btn-primary"
               >

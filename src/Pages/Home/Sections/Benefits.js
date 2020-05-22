@@ -62,7 +62,7 @@ export default () => {
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={SupportOperationalExcellence}
-            title="Support Operational Excellence"
+            title="Support operational excellence"
             text="Enable current-state insights, improvement opportunity analysis, and better decision making."
           />
         </div>
@@ -103,15 +103,15 @@ export default () => {
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={BetterCustomerExperiences}
-            title="Better Customer Experiences"
+            title="Better customer experiences"
             text="Visualize and validate different ideas and enhance your customer experience."
           />
         </div>
         <div className="col-12 col-md-4">
           <BenefitsCard
             img={Benefit9}
-            title="Realize the Yackit potential of everyone"
-            text="Involve everyone, connect and get insights and ideas across teams from any location"
+            title="Realize the tacit potential of everyone"
+            text="Involve everyone, connect and get insights and ideas across teams from any location."
           />
         </div>
       </div>

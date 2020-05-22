@@ -108,7 +108,7 @@ export default () => {
                   <small>&nbsp;</small>
                 </div>
                 <a
-                  href="http://app.cxdeployer.com/"
+                  href="https://app.cxdeployer.com/"
                   target="_blank"
                   without rel="noopener noreferrer"
                   className="btn btn-block btn-primary text-uppercase mt-4"
@@ -126,7 +126,7 @@ export default () => {
                   <li>1 User</li>
                   <li>1 Project</li>
                   <li>1 Customer Journey Map</li>
-                  <li>1 Buisness Model Canvas</li>
+                  <li>1 Business Model Canvas</li>
                   <li>1 Persona</li>
                   <li>Export to PDF & PNG</li>
                   <li>Up to 50MB Storage</li>
@@ -154,7 +154,7 @@ export default () => {
                   <small>(During Beta *)</small>
                 </div>
                 <a
-                  href="http://app.cxdeployer.com/"
+                  href="https://app.cxdeployer.com/"
                   target="_blank"
                   without rel="noopener noreferrer"
                   className="btn btn-block btn-primary text-uppercase mt-4"
@@ -167,7 +167,7 @@ export default () => {
                 <hr />
                 <ul className="fa-ul">
                   <li>
-                    <strong>Startup Plan Includes</strong>
+                    <strong>Startup Plan Includes:</strong>
                   </li>
                   <li>Up to 5 Users</li>
                   <li>Unlimited Projects</li>
@@ -205,7 +205,7 @@ export default () => {
                   <small>(During Beta *)</small>
                 </div>
                 <a
-                  href="http://app.cxdeployer.com/"
+                  href="https://app.cxdeployer.com/"
                   target="_blank"
                   without rel="noopener noreferrer"
                   className="btn btn-block btn-primary text-uppercase mt-4"
@@ -218,7 +218,7 @@ export default () => {
                 <hr />
                 <ul className="fa-ul">
                   <li>
-                    <strong>Growth Plan Includes</strong>
+                    <strong>Growth Plan Includes:</strong>
                   </li>
                   <li>Unlimited Users</li>
                   <li>Unlimited Projects</li>
@@ -245,7 +245,7 @@ export default () => {
                 </h5>
                 <hr />
                 <div className="text-center mb-2">
-                  For large organization that belives in design thinking as a
+                  For large organization that believes in design thinking as a
                   way of life.
                 </div>
                 <h6 className="card-price text-center pt-2">
@@ -262,7 +262,7 @@ export default () => {
                 <hr />
                 <ul className="fa-ul">
                   <li>
-                    <strong>Enterprise Plan Includes</strong>
+                    <strong>Enterprise Plan Is: </strong>
                   </li>
                   <li>Unlimited Users</li>
                   <li>Unlimited Projects</li>

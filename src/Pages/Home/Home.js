@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import CookieConsent from "react-cookie-consent";
 import Carousel from "./Sections/Carousel";
 import Benefits from "./Sections/Benefits";
 import "./Home.css";
@@ -36,6 +37,24 @@ export default class extends Component {
             <AboveFooter />
           </div>
         </div>
+        <CookieConsent
+          location="bottom"
+          buttonText="I accept"
+          cookieName="myAwesomeCookieName2"
+          style={{ background: "#101010" }}
+          buttonStyle={{
+            background: "#101010",
+            fontSize: "18px",
+            borderRadius: "8px",
+            color: "white",
+            border: "border: 2px solid #4CAF50"
+          }}
+          expires={150}
+        >
+          We use cookies to give you the best browsing experience possible.By
+          clicking 'I accept' or continuing to use our site you agree to the use
+          of cookies.
+        </CookieConsent>
       </div>
     );
   };

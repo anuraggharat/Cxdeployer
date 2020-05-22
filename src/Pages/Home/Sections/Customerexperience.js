@@ -14,7 +14,7 @@ export default () => {
           target="_blank"
           rel="noopener noreferrer"
           role="button"
-          href="http://app.cxdeployer.com"
+          href="https://app.cxdeployer.com"
         >
           Start here
         </a>
