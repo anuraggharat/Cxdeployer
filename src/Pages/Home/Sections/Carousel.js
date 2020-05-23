@@ -7,6 +7,11 @@ import Banner1Sm from "../../../assets/Home/CX-deployer-banner-3-sm.png";
 import Banner2Sm from "../../../assets/Home/CX-deployer-banner-2-sm-1.png";
 import Banner3Sm from "../../../assets/Home/CX-deployer-banner-1-sm.png";
 import Banner4Sm from "../../../assets/Home/CX-deployer-banner-4-sm.png";
+import Slider1 from '../../../assets/Home/slider1.png'
+import Slider2 from '../../../assets/Home/slider2.jpg'
+import Slider3 from '../../../assets/Home/slider3.png'
+import Slider4 from '../../../assets/Home/slider4.png'
+
 
 // Gradient
 // #0a1d44 top
@@ -36,7 +41,7 @@ export default () => {
         <div
           className="carousel-item rounded active"
           style={{
-            backgroundImage: `url(${Banner1})`,
+            backgroundImage: `url(${Slider1})`,
             minHeight: "80vh",
             height: "auto",
           }}
@@ -45,7 +50,7 @@ export default () => {
             <div className="row ">
               <div className="col-12 d-md-none">
                 <img
-                  src={Banner1Sm}
+                  src={Slider1}
                   alt=""
                   className="img-fluid"
                   width="100%"
@@ -100,7 +105,7 @@ export default () => {
             <div className="row ">
               <div className="col-12 d-md-none">
                 <img
-                  src={Banner2Sm}
+                  src={Slider2}
                   alt=""
                   width="100%"
                   style={{ minHeight: "10px" }}
@@ -145,7 +150,7 @@ export default () => {
         <div
           className="carousel-item rounded"
           style={{
-            backgroundImage: `url(${Banner3})`,
+            backgroundImage: `url(${Slider3})`,
             minHeight: "80vh",
             height: "auto",
           }}
@@ -154,7 +159,7 @@ export default () => {
             <div className="row ">
               <div className="col-12 d-md-none">
                 <img
-                  src={Banner3Sm}
+                  src={Slider3}
                   alt=""
                   width="100%"
                   style={{ minHeight: "10px" }}
@@ -197,7 +202,7 @@ export default () => {
         <div
           className="carousel-item rounded"
           style={{
-            backgroundImage: `url(${Banner4})`,
+            backgroundImage: `url(${Slider4})`,
             minHeight: "80vh",
             height: "auto",
           }}
@@ -206,7 +211,7 @@ export default () => {
             <div className="row ">
               <div className="col-12 d-md-none">
                 <img
-                  src={Banner4Sm}
+                  src={Slider4}
                   alt=""
                   width="100%"
                   style={{ minHeight: "10px" }}
