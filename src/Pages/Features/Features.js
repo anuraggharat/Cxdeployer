@@ -4,16 +4,22 @@ import Img1 from "../../assets/Features/1.png"
 import Img2 from "../../assets/Features/2.png"
 import Img3 from "../../assets/Features/3.png"
 import Img4 from "../../assets/Features/4.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
 
 export default () => {
+AOS.init();
+
   return (
-    <div className=" pt-5">
+    <div className=" pt-5 bg-features">
       <div className="intro-text text-center py-md-5 mb-5 p-5">
         <div className="intro-desc mb-0">
           <h5>The only solution you need to </h5>
         </div>
         <div className="intro-lead-in text-uppercase ">
-          <h1 style={{ color: "blue" }}>
+          <h1 className="text-first">
             <strong>Manage and Improve Your Customer’s Experience </strong>
           </h1>
         </div>
@@ -29,7 +35,7 @@ export default () => {
             rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
             target="_blank"
-            className="btn btn-secondary"
+            className="btn btn-first"
           >
             <font color="white">Try CXDeployer for free</font>
           </a>
@@ -39,7 +45,8 @@ export default () => {
         <h3 className="text-center  font-italic">Persona</h3>
         <h2 className="text-center my-3 ">Design your customer’s persona</h2>
         <div className="row">
-          <div className="col-12 col-md-6 mt-5 order-2 order-md-1 px-5 ">
+          <div className="col-12 col-md-6 mt-5  px-5 "
+          >
             <div className="d-flex align-items-center mb-5">
               <img src={Tick} alt="" className="img-fluid mr-5" width="40" height="40" />
               <h5>Create custom layout</h5>
@@ -57,8 +64,9 @@ export default () => {
               <h5>Multiple Persona views</h5>
             </div>
           </div>
-          <div className="col-12 col-md-6 order-1 order-md-2">
-            <img src={Img3} className="img-fluid" alt="" />
+          <div className="col-12 col-md-6 "          >
+            <img src={Img3} className="img-fluid" alt="" 
+              />
           </div>
         </div>
         <div className="text-center mt-3">
@@ -72,7 +80,10 @@ export default () => {
         <h3 className="text-center ">Empathy Map</h3>
         <h2 className="text-center my-3">Describe your customer’s thinking, feeling, fear, hope and dreams</h2>
         <div className="row">
-          <div className="col-12 col-md-6 mt-5 order-2 order-md-1 p-5">
+        <div className="col-12 col-md-6  ">
+            <img src={Img4} className="img-fluid" alt="" />
+          </div>
+          <div className="col-12 col-md-6 mt-5  p-5">
             <div className="d-flex align-items-center mb-5">
               <img src={Tick} alt="" className="img-fluid mr-5" width="40" height="40" />
               <h5>Map empathy for multiple personas</h5>
@@ -90,9 +101,7 @@ export default () => {
               <h5>A complete activity log history</h5>
             </div>
           </div>
-          <div className="col-12 col-md-6 order-1 order-md-2">
-            <img src={Img4} className="img-fluid" alt="" />
-          </div>
+
         </div>
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
@@ -104,7 +113,7 @@ export default () => {
         <h3 className="text-center text-white">Business Model Canvas</h3>
         <h2 className="text-center text-white my-3">Design and analyze solution’s value proposition</h2>
         <div className="row">
-          <div className="col-12 col-md-6 mt-5 order-2 order-md-1 p-5">
+          <div className="col-12 col-md-6 mt-5  p-5">
             <div className="d-flex align-items-center mb-5">
               <img src={Tick} alt="" className="img-fluid mr-5" width="40" height="40" />
               <h5>Easy to organize in a page</h5>
@@ -132,11 +141,14 @@ export default () => {
             target="_blank" className="btn bg-white primary-text shadow-lg p-4">CREATE BUSINESS  MODEL CANVAS ONLINE NOW</a>
         </div>
       </div>
-      <div className="features-section">
+      <div className="features-section p-5">
         <h3 className="text-center ">Customer Journey Map</h3>
         <h2 className="text-center my-3">Visualize your customer’s experience and create professional looking journey map </h2>
         <div className="row">
-          <div className="col-12 col-md-6 mt-5 order-2 order-md-1">
+          <div className="col-12 col-md-6 order-1 order-md-2">
+            <img src={Img2} className="img-fluid" alt="" />
+          </div>
+          <div className="col-12 col-md-6 mt-5  ">
             <div className="d-flex align-items-center mb-5">
               <img src={Tick} alt="" className="img-fluid mr-5" width="40" height="40" />
               <h5>Natural layout to quickly onboard  your team</h5>
@@ -154,9 +166,7 @@ export default () => {
               <h5>Add visuals – icon and images</h5>
             </div>
           </div>
-          <div className="col-12 col-md-6 order-1 order-md-2">
-            <img src={Img2} className="img-fluid" alt="" />
-          </div>
+          
         </div>
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"

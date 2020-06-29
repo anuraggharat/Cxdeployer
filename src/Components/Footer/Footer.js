@@ -12,9 +12,9 @@ export default () => {
         </div>
         <div className="w-100 mt-4">
             <div className="w-50 mx-auto d-flex justify-content-between">
-              <Link to="/" className="">Terms Of Use</Link>
-              <Link to="/" className="">Privacy Policy</Link>
-              <Link to="/" className="">Cookie Policy</Link>
+              <Link to="/" className="footer-pages">Terms Of Use</Link>
+              <Link to="/" className="footer-pages">Privacy Policy</Link>
+              <Link to="/" className="footer-pages">Cookie Policy</Link>
           </div>
         </div>
         <div className="w-100 d-flex justify-content-between mt-5">
@@ -26,7 +26,7 @@ export default () => {
             <FaGoogle className="Footer-links"/>
           </div>
           <div className="text-white pr-2">
-            <p>2020 Cxdeployer. All Rights Reserved.</p>
+            <p className="footer-pages">2020 Cxdeployer. All Rights Reserved.</p>
           </div>
         </div>
     </footer>

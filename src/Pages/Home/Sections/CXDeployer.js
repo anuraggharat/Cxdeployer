@@ -28,8 +28,8 @@ const Section = ({ img, title, text, text2, step, isReversed, isGradient }) => (
         <div className="step h1">{step}</div>
         <h1 className="step-text">{title}</h1>
         <div className="step-desc">
-          <p style={{ fontSize: "1.2em" }}>{text}</p>
-          <p style={{ fontSize: "1.2em" }}>{text2}</p>
+          <p style={{ fontSize: "1.2em", }}>{text}</p>
+          <p style={{ fontSize: "1.2em", }}>{text2}</p>
         </div>
       </div>
     </div>
@@ -42,10 +42,10 @@ export default () => {
       <div className="bg-gradient-2">
         <div className="py-5"></div>
         <div className="py-5">
-          <p className="text-center cxd">
+          <p className="text-center cxd text-white">
             What is CXDeployer?
           </p>
-          <p className="text-center px-lg-5 container-lg cx-desc">
+          <p className="text-center px-lg-5 container-lg cx-desc text-white">
             CXDeployer is a cloud based all-in-one solution that enables design
             thinking professionals to deploy, and transform the customer
             experience by creating, sharing and presenting the persona map,
