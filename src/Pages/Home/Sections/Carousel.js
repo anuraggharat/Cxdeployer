@@ -79,7 +79,7 @@ export default () => {
                       rel="noopener noreferrer"
                       href="https://app.cxdeployer.com/#/"
                       target="_blank"
-                      className="btn btn-primary"
+                      className="btn btn-first"
                       style={{ zIndex: "100", align: "left", width: "10" }}
                     >
                       <font color="white">Try for free</font>
@@ -133,7 +133,7 @@ export default () => {
                       rel="noopener noreferrer"
                       href="https://app.cxdeployer.com/#/"
                       target="_blank"
-                      className="btn btn-primary"
+                      className="btn btn-first"
                       style={{ zIndex: "100", align: "left", width: "10" }}
                     >
                       <font color="white">Try for free</font>
@@ -185,7 +185,7 @@ export default () => {
                       rel="noopener noreferrer"
                       href="https://app.cxdeployer.com/#/"
                       target="_blank"
-                      className="btn btn-primary"
+                      className="btn btn-first"
                       style={{ zIndex: "100", align: "left", width: "10" }}
                     >
                       <font color="white">Try for free</font>
@@ -237,7 +237,7 @@ export default () => {
                       rel="noopener noreferrer"
                       href="https://app.cxdeployer.com/#/"
                       target="_blank"
-                      className="btn btn-primary"
+                      className="btn btn-first"
                       style={{ zIndex: "100", align: "left", width: "10" }}
                     >
                       <font color="white">Try for free</font>

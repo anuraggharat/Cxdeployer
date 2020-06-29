@@ -4,13 +4,8 @@ import Img1 from "../../assets/Features/1.png"
 import Img2 from "../../assets/Features/2.png"
 import Img3 from "../../assets/Features/3.png"
 import Img4 from "../../assets/Features/4.png"
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-
 
 export default () => {
-AOS.init();
 
   return (
     <div className=" pt-5 bg-features">
