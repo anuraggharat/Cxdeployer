@@ -1,17 +1,14 @@
-.custom-footer {
-  background: #162950;
-  margin-top: 55px;
-  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.5);
+footer{
+  background-color: #141C2C;
 }
-.footer-link a,
-.footer-link a:hover,
-.footer-link a:active {
+a,p{
+  color: #7A84A5;
+}
+.Footer-links{
+  color: #7A84A5;
+  font-size: 2em;
+}
+.Footer-links:hover,a:hover{
+  color: #E9EFF2 !important;
   text-decoration: none;
-  margin-right: 22px;
-  color: bl;
-}
-
-.fab {
-  color: #162950 !important;
-  cursor: pointer;
 }
