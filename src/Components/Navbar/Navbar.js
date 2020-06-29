@@ -58,8 +58,7 @@ export default () => {
 
   return (
     <nav
-      className="navbar navbar-expand-lg navbar-dark fixed-top sticky-top"
-      style={{ backgroundColor: "#162950" }}
+      className="navbar navbar-expand-lg navbar-dark bg-first fixed-top sticky-top"
       id="mainNav"
     >
       <div className="container">

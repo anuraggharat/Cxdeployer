@@ -2,20 +2,15 @@ import React from "react";
 import Livechat from "../assets/Home/live chat.svg";
 import Schedulemeeting from "../assets/Home/meeting.svg";
 import Submitrequest from "../assets/Home/request.svg";
+import {AiFillWechat} from 'react-icons/ai'
+import {FaHandshake} from 'react-icons/fa'
+import {MdEmail} from 'react-icons/md'
 
 export default () => {
   return (
     <div>
-      <div>
-        <div
-          class="jumbotron text-light "
-          style={{ textAlign: "Center", backgroundColor: "rgb(22, 41, 80)" }}
-        >
-          <h1> Contact Us </h1>
-          <hr size="30" color="red" width="300px"></hr>
-        </div>
-      </div>
-      <div className="container mt-3">
+      
+      {/* <div className="container mt-3">
         <div class="card-deck">
           <div className="card border-0 shadow-lg">
             <div className="d-flex justify-content-center">
@@ -89,7 +84,59 @@ export default () => {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className=" mt-5 mb-5 text-center container">
+        <h1>Contact Us</h1>
       </div>
+
+      <div className="container mt-5">
+        <div className="row text-center">
+          <div className="col-lg-4 col-sm-12">
+            <div>
+              <AiFillWechat className="display-1 text-first" />
+              <h3>Live Chat</h3>
+              <p className="mb-0">Wait time: less than 2 minutes</p>
+              <p className="mt-0"> Working hours: 8:00am - 3:00pm</p>
+              <a
+                rel="noopener noreferrer"
+                href="https://api.whatsapp.com/send?phone=+919669911101"
+                target="_blank"
+                class="btn btn-first"
+              >
+                Chat Now
+              </a>
+            </div>
+          </div>
+          <div className="col-lg-4 col-sm-12">
+          <FaHandshake className="display-1 text-first" />
+              <h3>Meeting</h3>
+              <p className="mb-0">Schedule a meeting with us.</p>
+              <p className="mt-0">Response Time : 24hrs</p>
+              <a href="https://calendly.com/gharatanurag778/15min" className="btn btn-first" >Schedule time </a>
+          </div>
+          <div className="col-lg-4 col-sm-12">
+          <MdEmail className="display-1 text-first" />
+              <h3>Mail Us</h3>
+              <p className="mb-0">Send a Email directly</p>
+              <p className="mt-0"> Response Time: 1 Working day</p>
+              <a
+                rel="noopener noreferrer"
+                href="mailto:contact@xsdeployer.com"
+                target="_blank"
+                class="btn btn-first"
+              >
+                Submit
+              </a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
     </div>
   );
 };

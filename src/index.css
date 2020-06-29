@@ -305,3 +305,24 @@ input:checked + .slider:before {
 .intro-lead-in.text-uppercase {
   color: rgb(119, 119, 119);
 }
+
+
+/* styles added bu Anurag Gharat  */
+.text-first{
+  color : #24243e;
+}
+.btn-first{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #49429b, #24243e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #49429b, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: 200%;  
+  color: white;
+  transition: .6s all ease;
+  padding: 10px 25px;
+}
+.btn-first:hover{
+  background-position: right;
+}
+.bg-first{
+  background-color: #24243e !important;
+}
