@@ -98,6 +98,11 @@ export default () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link js-scroll-trigger" to="/blogs">
+                Blog
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link js-scroll-trigger" to="/Contactus">
                 Contact US
               </Link>
