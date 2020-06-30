@@ -12,6 +12,8 @@ import {
 } from "./Pages";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom"; // very important for Routing
+import AllBlogs from "./Pages/Blog/AllBlogs";
+import Blog from "./Pages/Blog/Blog";
 
 function App() {
   return (
@@ -27,6 +29,9 @@ function App() {
             <Route path="/privacypolicy" component={PrivacyPolicy} />
             <Route path="/terms" component={TermsOfUse} />
             <Route path="/features" component={Features} />
+            <Route path="/blogs" component={AllBlogs} />
+            <Route path="/blog/:slug" component={Blog} />
+
           </Switch>
           <Footer />
         </ScrollToTop>
