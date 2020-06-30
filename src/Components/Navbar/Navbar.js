@@ -109,7 +109,7 @@ export default () => {
             </li>
             <li className="nav-item">
               <a
-                className="nav-link js-scroll-trigger"
+                className="nav-link js-scroll-trigger "
                 href="https://app.cxdeployer.com/#/sign-in"
               >
                 Login
@@ -120,9 +120,9 @@ export default () => {
                 rel="noopener noreferrer"
                 href="https://app.cxdeployer.com/#/"
                 target="_blank"
-                className="nav-link btn btn-light py-1 pb-3 pb-lg-1"
+                className="nav-link px-5 btn btn-light rounded-pill"
               >
-                <font color="black">Try for free</font>
+                <font color="black ">Try for free</font>
               </a>
             </li>
           </ul>

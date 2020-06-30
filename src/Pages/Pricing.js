@@ -111,7 +111,7 @@ export default () => {
                   href="https://app.cxdeployer.com/"
                   target="_blank"
                   without rel="noopener noreferrer"
-                  className="btn btn-block btn-primary text-uppercase mt-4"
+                  className="btn btn-block btn-first text-uppercase mt-4"
                 >
                   Try for free
                 </a>
@@ -157,7 +157,7 @@ export default () => {
                   href="https://app.cxdeployer.com/"
                   target="_blank"
                   without rel="noopener noreferrer"
-                  className="btn btn-block btn-primary text-uppercase mt-4"
+                  className="btn btn-block btn-first text-uppercase mt-4"
                 >
                   Try for free
                 </a>
@@ -208,7 +208,7 @@ export default () => {
                   href="https://app.cxdeployer.com/"
                   target="_blank"
                   without rel="noopener noreferrer"
-                  className="btn btn-block btn-primary text-uppercase mt-4"
+                  className="btn btn-block btn-first text-uppercase mt-4"
                 >
                   Try for free
                 </a>
@@ -253,7 +253,7 @@ export default () => {
                     Install on your private server
                   </div>
                 </h6>
-                <Link className="btn btn-block btn-primary text-uppercase mt-4">
+                <Link className="btn btn-block btn-first text-uppercase mt-4">
                   Contact Us
                 </Link>
                 <div className="pt-3 text-center">

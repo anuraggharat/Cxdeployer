@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
 }
 .gradient-1{
-  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  background-image: linear-gradient(to top, #dfdfdf 0%, #f1f7fa 100%);
 }
 .primary-text{
   color: #a1c4fd;
@@ -275,7 +275,7 @@ input:checked + .slider:before {
   transition: all 0.2s;
 }
 .btn-primary {
-  background-color: rgb(22, 41, 80) !important;
+  background-color: rgb(67, 100, 167) !important;
   border: none;
 }
 .features-section {
@@ -309,20 +309,40 @@ input:checked + .slider:before {
 
 /* styles added bu Anurag Gharat  */
 .text-first{
-  color : #49429b;
+  color : #0A79DF;
 }
 .btn-first{
   background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #24243e, #49429b, #24243e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #24243e, #49429b, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #0A79DF, #3C40C6, #0A79DF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0A79DF, #3C40C6, #0A79DF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 200%;  
   color: white;
   transition: .6s all ease;
   padding: 10px 25px;
 }
+.btn-outline-first{
+  color:#0A79DF !important;
+  border: 1px solid #0A79DF !important;
+  padding: 10px 35px;
+}
+.btn-outline-first:hover{
+  color:#fff !important;
+  border: 1px solid #fff !important;
+  background: linear-gradient(to right, #0A79DF, #3C40C6, #0A79DF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 10px 35px;
+  transition: .6s all ease;
+
+}
+.btn-second{
+  background-color: #6A89CC;
+}
+
 .btn-first:hover{
   background-position: right;
 }
 .bg-first{
   background-color: #24243e !important;
+}
+.bg-offwhite{
+  background-color: #f1f7fa;
 }

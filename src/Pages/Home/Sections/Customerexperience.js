@@ -10,7 +10,7 @@ export default () => {
         <h2>The best customer experience management solution.</h2>
         <p>You are just minutes away from CXDeployer.</p>
         <a
-          className="btn btn-first "
+          className="btn btn-outline-first "
           target="_blank"
           rel="noopener noreferrer"
           role="button"

@@ -89,19 +89,19 @@ export default () => {
         <h1>Contact Us</h1>
       </div>
 
-      <div className="container mt-5">
-        <div className="row text-center">
+      <div className="container mt-5 mb-5">
+        <div className="row text-center pb-5">
           <div className="col-lg-4 col-sm-12">
             <div>
               <AiFillWechat className="display-1 text-first" />
               <h3>Live Chat</h3>
-              <p className="mb-0">Wait time: less than 2 minutes</p>
-              <p className="mt-0"> Working hours: 8:00am - 3:00pm</p>
+              <p className="mb-0 text-muted">Wait time: less than 2 minutes</p>
+              <p className="mt-0 text-muted"> Working hours: 8:00am - 3:00pm</p>
               <a
                 rel="noopener noreferrer"
                 href="https://api.whatsapp.com/send?phone=+919669911101"
                 target="_blank"
-                class="btn btn-first"
+                class="btn btn-first mt-4"
               >
                 Chat Now
               </a>
@@ -110,20 +110,20 @@ export default () => {
           <div className="col-lg-4 col-sm-12">
           <FaHandshake className="display-1 text-first" />
               <h3>Meeting</h3>
-              <p className="mb-0">Schedule a meeting with us.</p>
-              <p className="mt-0">Response Time : 24hrs</p>
-              <a href="https://calendly.com/gharatanurag778/15min" className="btn btn-first" >Schedule time </a>
+              <p className="mb-0 text-muted">Schedule a meeting with us.</p>
+              <p className="mt-0 text-muted">Response Time : 24hrs</p>
+              <a href="https://calendly.com/gharatanurag778/15min" className="btn btn-first  mt-4" >Schedule time </a>
           </div>
           <div className="col-lg-4 col-sm-12">
           <MdEmail className="display-1 text-first" />
               <h3>Mail Us</h3>
-              <p className="mb-0">Send a Email directly</p>
-              <p className="mt-0"> Response Time: 1 Working day</p>
+              <p className="mb-0 text-muted">Send a Email directly</p>
+              <p className="mt-0 text-muted"> Response Time: 1 Working day</p>
               <a
                 rel="noopener noreferrer"
                 href="mailto:contact@xsdeployer.com"
                 target="_blank"
-                class="btn btn-first"
+                class="btn btn-first mt-4"
               >
                 Submit
               </a>

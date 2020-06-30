@@ -12,7 +12,7 @@ import Benefit9 from "../../../assets/Home/Benifit9.svg";
 const BenefitsCard = ({ img, title, text }) => {
   return (
     <div
-      className="card d-flex align-items-center jusitfy-content-center c-pointer rounded-lg border-0  mb-5 "
+      className="card shadow-lg d-flex text-center justify-content-center align-content-center c-pointer rounded-lg border-0  mb-5 "
       style={{
         height: "360px",
         backgroundColor: "#f2f4f5",
@@ -26,14 +26,14 @@ const BenefitsCard = ({ img, title, text }) => {
           padding: "10px",
           margin: "20px 0",
         }}
-        className="card-img-top"
+        className="card-img-top mx-auto"
         alt="..."
       />
       <div className="card-body">
-        <h5 className="card-title text-center  d-flex flex-column justify-content-center">
+        <h5 className="card-title text-left  d-flex flex-column justify-content-start">
           {title}
         </h5>
-        <p className="card-text text-center d-flex flex-column justify-content-center">
+        <p className="card-text text-left d-flex flex-column justify-content-start">
           {text}
         </p>
       </div>

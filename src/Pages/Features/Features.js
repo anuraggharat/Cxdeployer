@@ -11,32 +11,40 @@ export default () => {
     <div className=" pt-5 bg-features">
       <div className="intro-text text-center py-md-5 mb-5 p-5">
         <div className="intro-desc mb-0">
-          <h5>The only solution you need to </h5>
+          <h5><u>The only solution you need to </u></h5>
         </div>
         <div className="intro-lead-in text-uppercase ">
           <h1 className="text-first">
             <strong>Manage and Improve Your Customer’s Experience </strong>
           </h1>
         </div>
-        <div className="intro-desc mt-5">
+        <div className="intro-desc mt-5 lead mt-0">
           The best integrated experience management and design thinking tool
           with all features to design personas, empathy mapping, journey
           mapping, business model canvas, capture ideas to improve the current
           experience and manage implementation of the best idea to realize the
           future experience.
         </div>
-        <div style={{ textAlign: "center" }}>
+        <div className="w-100 d-flex justify-content-center">
           <a
             rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
             target="_blank"
-            className="btn btn-first"
+            className="btn btn-first mr-3 rounded-pill shadow-lg"
           >
-            <font color="white">Try CXDeployer for free</font>
+            <font color="white">Try CX-Deployer for Free</font>
+          </a>
+          <a
+            rel="noopener noreferrer"
+            href="/pricing"
+            target="_blank"
+            className="btn btn-outline-first text-first ml-3 rounded-pill shadow-lg"
+          >
+            <font>Check Pricing</font>
           </a>
         </div>
       </div>
-      <div className="features-section gradient-1 p-5 ">
+      <div className="features-section bg-offwhite p-5 ">
         <h3 className="text-center  font-italic">Persona</h3>
         <h2 className="text-center my-3 ">Design your customer’s persona</h2>
         <div className="row">
@@ -68,7 +76,7 @@ export default () => {
           <a
             rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn bg-white primary-text shadow-lg p-4">DESIGN PERSONA ONLINE NOW</a>
+            target="_blank" className="btn btn-second text-white shadow-lg p-4">DESIGN PERSONA ONLINE NOW</a>
         </div>
       </div>
       <div className="features-section p-5">
@@ -101,12 +109,12 @@ export default () => {
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn gradient-1 border-0 shadow-lg  p-4">CREATE EMPATHY MAP ONLINE NOW</a>
+            target="_blank" className="btn  btn-second text-white border-0 shadow-lg  p-4">CREATE EMPATHY MAP ONLINE NOW</a>
         </div>
       </div>
-      <div className="features-section  gradient-1 p-5">
-        <h3 className="text-center text-white">Business Model Canvas</h3>
-        <h2 className="text-center text-white my-3">Design and analyze solution’s value proposition</h2>
+      <div className="features-section  bg-white p-5">
+        <h3 className="text-center text-black">Business Model Canvas</h3>
+        <h2 className="text-center text-black my-3">Design and analyze solution’s value proposition</h2>
         <div className="row">
           <div className="col-12 col-md-6 mt-5  p-5">
             <div className="d-flex align-items-center mb-5">
@@ -133,7 +141,7 @@ export default () => {
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn bg-white primary-text shadow-lg p-4">CREATE BUSINESS  MODEL CANVAS ONLINE NOW</a>
+            target="_blank" className="btn  btn-second text-white shadow-lg p-4">CREATE BUSINESS  MODEL CANVAS ONLINE NOW</a>
         </div>
       </div>
       <div className="features-section p-5">
@@ -166,7 +174,7 @@ export default () => {
         <div className="text-center mt-3">
           <a rel="noopener noreferrer"
             href="https://app.cxdeployer.com/#/"
-            target="_blank" className="btn gradient-1 border-0 shadow-lg p-4">MAP CUSTOMER JOURNEY ONLINE NOW</a>
+            target="_blank" className="btn  btn-second text-white border-0 shadow-lg p-4">MAP CUSTOMER JOURNEY ONLINE NOW</a>
         </div>
       </div>
       {/* <div className="features-section">
